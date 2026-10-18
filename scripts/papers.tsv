@@ -52,7 +52,7 @@ num	short	year	domain	title	folder	kaggle
 051	Weak-to-Strong	2023	alignment	Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision	051_weak-to-strong-generalization	weak-to-strong-generalization
 052	Chain-of-Thought	2022	reasoning	Chain-of-Thought Prompting Elicits Reasoning in Large Language Models	052_chain-of-thought-prompting-reasoning	chain-of-thought-prompting-reasoning
 053	Zero-shot CoT	2022	reasoning	Large Language Models are Zero-Shot Reasoners	053_zero-shot-cot-reasoning	zero-shot-cot-reasoning
-054	Self-Consistency	2023	reasoning	Self-Consistency Improves Chain of Thought Reasoning in Language Models	054_self-consistency-chain-of-thought	self-consistency-chain-of-thought-reasoning
+054	Self-Consistency	2022	reasoning	Self-Consistency Improves Chain of Thought Reasoning in Language Models	054_self-consistency-chain-of-thought	self-consistency-chain-of-thought-reasoning
 055	Tree of Thoughts	2023	reasoning	Tree of Thoughts: Deliberate Problem Solving with Large Language Models	055_tree-of-thoughts-deliberate-problem-solving	tree-of-thoughts-deliberate-problem-solving
 056	STaR	2022	reasoning	STaR: Bootstrapping Reasoning With Reasoning	056_star-bootstrapping-reasoning	star-bootstrapping-reasoning
 057	Process Reward Models	2023	reasoning	Let's Verify Step by Step (Process Reward Models)	057_process-reward-models-verify-step-by-step	process-reward-models-verify-step-by-step

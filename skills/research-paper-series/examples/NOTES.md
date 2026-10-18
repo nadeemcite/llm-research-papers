@@ -1,6 +1,8 @@
 # About these examples
 
-Copied verbatim from nadeemcite/research-papers @ 1ad774b (18 Oct 2026).
+**These are Season 1 reference examples.** They are copied verbatim from the Season 1 repo,
+nadeemcite/research-papers @ 1ad774b (18 Oct 2026), so their links point to that repo, not to
+this one (nadeemcite/llm-research-papers, Season 2). Use them for style and structure only.
 
 - `032-YOLO-README.md`: the best README in the repo. It is the only golden example that already has
   `### Simplifications in This Notebook` AND `### What the Notebook Result Shows`. Its Video line is

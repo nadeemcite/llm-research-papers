@@ -24,6 +24,10 @@ GOAL = 100
 REPO_NAME = 'llm-research-papers'
 GH_USER = 'nadeemcite'
 
+# Reproducible SVGs: fixed element-ID salt here, no embedded date in savefig(metadata=...), seeded RNG in draw_network
+plt.rcParams['svg.hashsalt'] = 'llm-research-papers'
+SVG_META = {'Date': None}
+
 DOMAINS = [  # (key, section title, short lane label, color)
     ('architecture', 'Architecture & Attention', 'Architecture\n& attention', '#4ea8de'),
     ('ssm', 'State Space & Linear Models', 'State space\n& linear', '#b388eb'),
@@ -108,6 +112,10 @@ FG = '#e6edf3'
 MUTED = '#8b949e'
 
 
+def is_built(p):
+    return (ROOT / p['folder'] / 'solution.ipynb').is_file()
+
+
 def load_papers():
     with open(ROOT / 'scripts' / 'papers.tsv') as f:
         papers = list(csv.DictReader(f, delimiter='\t'))
@@ -151,9 +159,9 @@ def build_banner(papers):
         ax.text(x + width / 2, 144, label, color='#0d1117', fontsize=16, fontweight='bold',
                 ha='center', va='center', zorder=6)
         x += width + 18
-    ax.text(72, 55, f'{len(papers)} / {GOAL} papers   ·   {min(years)} → {max(years)}   ·   {len(DOMAINS)} domains',
+    ax.text(72, 55, f'{sum(map(is_built, papers))} / {GOAL} papers   ·   {min(years)} → {max(years)}   ·   {len(DOMAINS)} domains',
             color=MUTED, fontsize=15, zorder=5)
-    fig.savefig(ROOT / 'assets' / 'banner.svg', facecolor=BG)
+    fig.savefig(ROOT / 'assets' / 'banner.svg', facecolor=BG, metadata=SVG_META)
     if PREVIEW_DIR:
         fig.savefig(Path(PREVIEW_DIR) / 'banner.png', facecolor=BG)
     plt.close(fig)
@@ -161,7 +169,13 @@ def build_banner(papers):
 
 def build_family_tree(papers):
     years = list(range(min(p['year'] for p in papers), max(p['year'] for p in papers) + 1))
-    col_w, node_w, node_h, row_h, lane_pad, left = 150, 132, 26, 32, 14, 150
+    node_h, row_h, lane_pad, left = 26, 32, 14, 150
+    probe = plt.figure()
+    renderer = probe.canvas.get_renderer()
+    text_w = max(probe.text(0, 0, p['short'], fontsize=9.2).get_window_extent(renderer).width for p in papers)
+    plt.close(probe)
+    node_w = math.ceil(text_w) + 16   # wide enough for the longest label, so none is truncated
+    col_w = node_w + 18
     cells = defaultdict(list)
     for p in sorted(papers, key=lambda p: p['num']):
         cells[(p['domain'], p['year'])].append(p)
@@ -214,10 +228,9 @@ def build_family_tree(papers):
         color = colors[p['domain']]
         ax.add_patch(FancyBboxPatch((cx - node_w / 2, cy - node_h / 2), node_w, node_h,
                                     boxstyle='round,pad=0,rounding_size=8', fc='#161b22', ec=color, lw=1.4, zorder=3))
-        label = p['short'] if len(p['short']) <= 18 else p['short'][:17] + '…'
-        ax.text(cx, cy + 0.5, label, color=FG, fontsize=9.2, ha='center', va='center', zorder=4)
+        ax.text(cx, cy + 0.5, p['short'], color=FG, fontsize=9.2, ha='center', va='center', zorder=4)
 
-    fig.savefig(ROOT / 'assets' / 'family-tree.svg', facecolor=BG)
+    fig.savefig(ROOT / 'assets' / 'family-tree.svg', facecolor=BG, metadata=SVG_META)
     if PREVIEW_DIR:
         fig.savefig(Path(PREVIEW_DIR) / 'family-tree.png', facecolor=BG)
     plt.close(fig)
@@ -227,21 +240,23 @@ def build_readme(papers):
     by_domain = defaultdict(list)
     for p in papers:
         by_domain[p['domain']].append(p)
-    years = [p['year'] for p in papers]
+    built = sum(map(is_built, papers))
+    first, last = min(p['year'] for p in papers), max(p['year'] for p in papers)
+    names = lambda y: ' and '.join(p['short'] for p in papers if p['year'] == y)
     kaggle_badge = 'https://kaggle.com/static/images/open-in-kaggle.svg'
     L = []
     L.append('<p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, '
              'validated on Kaggle" width="100%"></p>\n')
     L.append('<p align="center">')
-    L.append(f'  <img alt="papers" src="https://img.shields.io/badge/papers-{len(papers)}%20%2F%20{GOAL}-4ea8de">')
+    L.append(f'  <img alt="papers" src="https://img.shields.io/badge/papers-{built}%20%2F%20{GOAL}-4ea8de">')
     L.append('  <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/'
              'Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>')
     L.append('  <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/'
              'YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>')
     L.append(f'  <a href="https://github.com/{GH_USER}/{REPO_NAME}/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>')
     L.append('</p>\n')
-    L.append(f'**{len(papers)} landmark papers from the LLM era**, from RoPE ({min(years)}) to '
-             f'Artificial Hivemind ({max(years)}), each turned into a small, runnable, from-scratch PyTorch '
+    L.append(f'**{len(papers)} landmark papers from the LLM era**, from {names(first)} ({first}) to '
+             f'{names(last)} ({last}), each turned into a small, runnable, from-scratch PyTorch '
              'reimplementation with a plain-English explainer. Every notebook in this repo was **executed '
              'top to bottom on Kaggle** and is published with its real outputs, so you can open it, see it '
              'work, and fork it on a free GPU.\n')
@@ -282,8 +297,7 @@ def build_readme(papers):
         L.append('| # | Year | Paper | Run it |')
         L.append('|---|---|---|---|')
         for p in ps:
-            folder_exists = (ROOT / p['folder'] / 'README.md').is_file()
-            if folder_exists:
+            if is_built(p):
                 L.append(f'| {p["num"]} | {p["year"]} | [{p["title"]}]({p["folder"]}/) | '
                          f'[![Open in Kaggle]({kaggle_badge})](https://www.kaggle.com/code/nadymsazad/{p["kaggle"]}) |')
             else:

@@ -8,8 +8,7 @@ kernel-metadata.json
 .DS_Store
 .env
 
-# uv
+# Python
 __pycache__/
 
-# uv init created these — keep pyproject.toml and uv.lock tracked
-# .python-version and hello.py are uv init artifacts, remove if undesired
+# pyproject.toml, uv.lock and .python-version (Python 3.11 pin) are tracked on purpose
