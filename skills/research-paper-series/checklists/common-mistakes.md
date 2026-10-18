@@ -50,6 +50,7 @@ the rule is what matters. `[auto]` = `check_paper.py` catches it, `[manual]` = o
 | C8 | Wrong baseline [manual] | "(vs random baseline ~10)" while cell 8 measured 55 | Measure the baseline and quote that number |
 | C9 | GitHub vs Kaggle numbers differ [auto WARN with --kaggle] | README "99.6%" (CPU run) while Kaggle shows 100% | Commit the Kaggle run's outputs, or "99.6–100%" |
 | C10 | Boilerplate that is false for this notebook [auto WARN, partly] | "from-scratch PyTorch" for a NumPy notebook or a pretrained GPT-2 | Describe what the notebook really is |
+| C11 | Conclusion printed as a fixed sentence, not computed [auto FAIL] | 001 decay cell: `print("The inner product decays with increasing relative distance.")` right under output where the magnitude grew (-2.23 at r=0, -5.15 at r=32) | Compute it: `print(f"Bound decays: {late < early}")` from windowed means of the plotted numbers |
 
 ## D. Notebook format
 

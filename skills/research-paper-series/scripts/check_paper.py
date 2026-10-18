@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""check_paper.py - pre-commit gate for one paper of nadeemcite/research-papers.
+"""check_paper.py - pre-commit gate for one paper of nadeemcite/llm-research-papers.
 
 Usage:
     python check_paper.py <repo_root> NNN [--links] [--pages] [--kaggle] [--strict]
@@ -853,6 +853,46 @@ def check_notebook(R, root, folder, nb, size):
         R.fail(4, 'notebook "What the run above shows" has no numbers')
     else:
         R.ok(4, 'notebook summary has "What the run above shows" with numbers')
+    fixed = []
+    for i, c in enumerate(cells):
+        if c['cell_type'] == 'code':
+            fixed += [(i, t) for t in fixed_conclusions(cell_src(c))]
+    if fixed:
+        R.fail(4, 'code prints a fixed conclusion that is not computed from values (compute it, e.g. '
+                  'print(f"decays: {late < early}")): ' + '; '.join(f'cell {i}: "{t[:70]}"' for i, t in fixed[:5]))
+    else:
+        R.ok(4, 'no hardcoded conclusion sentences in print() calls')
+
+
+CONCLUSION = re.compile(r'\b(decays?|outperforms?|improves?|better than|collapses?|converges?)\b', re.I)
+
+
+def fixed_conclusions(src):
+    """Texts of print() calls whose arguments are all string literals (or f-strings with no placeholder)
+    and that state a conclusion (decays, outperforms, improves, better than, collapses, converges)."""
+    import ast
+    code = '\n'.join('' if ln.lstrip().startswith(('%', '!')) else ln for ln in src.splitlines())
+    try:
+        tree = ast.parse(code)
+    except SyntaxError:  # fall back to a line regex for sources ast cannot parse
+        return [m.group(2) for m in re.finditer(r'''print\(\s*f?(['"])([^'"{}]*)\1\s*\)''', code)
+                if CONCLUSION.search(m.group(2))]
+    out = []
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Call) and getattr(node.func, 'id', None) == 'print' and node.args \
+                and not node.keywords:
+            texts = []
+            for a in node.args:
+                if isinstance(a, ast.Constant) and isinstance(a.value, str):
+                    texts.append(a.value)
+                elif isinstance(a, ast.JoinedStr) and all(isinstance(v, ast.Constant) for v in a.values):
+                    texts.append(''.join(v.value for v in a.values))
+                else:
+                    texts = None
+                    break
+            if texts and CONCLUSION.search(' '.join(texts)):
+                out.append(' '.join(texts))
+    return out
 
 
 NUMW = r'(\d[\d,]*)'
