@@ -1,0 +1,8 @@
+/.ignore/
+
+# Kaggle validation artifacts (downloaded logs and cached datasets)
+.kaggle_output/
+kernel-metadata.json
+
+# OS files
+.DS_Store
