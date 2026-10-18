@@ -1,0 +1,101 @@
+num	short	year	domain	title	folder	kaggle
+001	RoPE	2021	architecture	RoFormer: Enhanced Transformer with Rotary Position Embedding	001_roformer-rotary-position-embedding	roformer-rotary-position-embedding
+002	ALiBi	2021	architecture	Train Short Test Long: Attention with Linear Biases (ALiBi)	002_alibi-attention-with-linear-biases	alibi-attention-with-linear-biases
+003	SwiGLU	2020	architecture	GLU Variants Improve Transformer (SwiGLU)	003_swiglu-glu-variants-improve-transformer	swiglu-glu-variants-improve-transformer
+004	RMSNorm	2019	architecture	Root Mean Square Layer Normalization (RMSNorm)	004_rmsnorm-root-mean-square-layer-norm	rmsnorm-root-mean-square-layer-normalization
+005	GQA	2023	architecture	GQA: Training Generalized Multi-Query Transformer Models	005_gqa-generalized-multi-query-attention	gqa-generalized-multi-query-attention
+006	LLaMA	2023	architecture	LLaMA: Open and Efficient Foundation Language Models	006_llama-open-and-efficient-foundation-language-models	llama-open-and-efficient-foundation-language-models
+007	Mistral	2023	architecture	Mistral 7B	007_mistral-7b-sliding-window-attention	mistral-7b-sliding-window-attention
+008	YaRN	2023	architecture	YaRN: Efficient Context Window Extension of Large Language Models	008_yarn-efficient-context-window-extension	yarn-efficient-context-window-extension
+009	MLA	2024	architecture	DeepSeek-V2: Multi-head Latent Attention (MLA)	009_deepseek-v2-multi-head-latent-attention	deepseek-v2-multi-head-latent-attention
+010	Multi-token Pred	2024	architecture	Better and Faster LLMs via Multi-token Prediction	010_multi-token-prediction-llms	multi-token-prediction-llms
+011	Diff Transformer	2024	architecture	Differential Transformer	011_differential-transformer	differential-transformer
+012	Gated Attention	2025	architecture	Gated Attention for Large Language Models	012_gated-attention-llm	gated-attention-large-language-models
+013	Hyper-Connections	2025	architecture	mHC: Manifold-Constrained Hyper-Connections	013_mhc-manifold-constrained-hyper-connections	mhc-manifold-constrained-hyper-connections
+014	Engram	2026	architecture	Conditional Memory via Scalable Lookup (Engram)	014_engram-conditional-memory-scalable-lookup	engram-conditional-memory-scalable-lookup
+015	BLT	2024	architecture	Byte Latent Transformer: Patches Scale Better Than Tokens	015_byte-latent-transformer	byte-latent-transformer
+016	S4	2021	ssm	Efficiently Modeling Long Sequences with Structured State Spaces (S4)	016_s4-structured-state-spaces	s4-structured-state-spaces
+017	xLSTM	2024	ssm	xLSTM: Extended Long Short-Term Memory	017_xlstm-extended-lstm	xlstm-extended-long-short-term-memory
+018	Mamba-2	2024	ssm	Transformers are SSMs: Generalized Models via Structured State Space Duality	018_mamba-2-structured-state-space-duality	mamba-2-structured-state-space-duality
+019	RWKV	2023	ssm	RWKV: Reinventing RNNs for the Transformer Era	019_rwkv-reinventing-rnns-transformer-era	rwkv-reinventing-rnns-transformer-era
+020	Gated DeltaNet	2024	ssm	Gated Delta Networks: Improving Mamba2 with Delta Rule	020_gated-deltanet-improving-mamba2	gated-deltanet-improving-mamba2
+021	Kimi Linear	2025	ssm	Kimi Linear: An Expressive Efficient Attention Architecture	021_kimi-linear-attention-architecture	kimi-linear-attention-architecture
+022	Titans	2025	ssm	Titans: Learning to Memorize at Test Time	022_titans-learning-to-memorize-test-time	titans-learning-to-memorize-test-time
+023	FlashAttention-2	2023	efficiency	FlashAttention-2: Faster Attention with Better Parallelism	023_flashattention-2-faster-attention	flashattention-2-faster-attention
+024	PagedAttention	2023	efficiency	Efficient Memory Management for LLM Serving with PagedAttention (vLLM)	024_pagedattention-vllm-memory-management	pagedattention-vllm-memory-management
+025	Speculative Decoding	2022	efficiency	Fast Inference from Transformers via Speculative Decoding	025_speculative-decoding-fast-inference	speculative-decoding-fast-inference
+026	Medusa	2024	efficiency	Medusa: Simple LLM Inference Acceleration with Multiple Decoding Heads	026_medusa-multiple-decoding-heads	medusa-multiple-decoding-heads
+027	StreamingLLM	2023	efficiency	Efficient Streaming Language Models with Attention Sinks	027_streamingllm-attention-sinks	streamingllm-attention-sinks
+028	LLM.int8()	2022	quantization	LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale	028_llm-int8-8-bit-matmul	llm-int8-8-bit-matrix-multiplication
+029	GPTQ	2022	quantization	GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers	029_gptq-post-training-quantization	gptq-post-training-quantization
+030	AWQ	2023	quantization	AWQ: Activation-aware Weight Quantization for LLM Compression	030_awq-activation-aware-weight-quantization	awq-activation-aware-weight-quantization
+031	BitNet b1.58	2024	quantization	The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits	031_bitnet-b1.58-1-bit-llms	bitnet-b1.58-1-bit-llms
+032	NSA	2025	efficiency	Native Sparse Attention: Hardware-Aligned and Natively Trainable	032_native-sparse-attention	native-sparse-attention
+033	DeepSeek Sparse Attn	2025	efficiency	DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention)	033_deepseek-sparse-attention	deepseek-sparse-attention
+034	Scaling Laws	2020	scaling	Scaling Laws for Neural Language Models (Kaplan)	034_scaling-laws-neural-language-models	scaling-laws-neural-language-models
+035	DeepSeek-V3	2024	scaling	DeepSeek-V3 Technical Report	035_deepseek-v3-technical-report	deepseek-v3-technical-report
+036	Muon	2025	scaling	Muon is Scalable for LLM Training	036_muon-scalable-llm-training	muon-scalable-llm-training
+037	Superposition Scaling	2025	scaling	Superposition Yields Robust Neural Scaling	037_superposition-robust-neural-scaling	superposition-robust-neural-scaling
+038	Grokking	2022	training	Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets	038_grokking-generalization-beyond-overfitting	grokking-generalization-beyond-overfitting
+039	QLoRA	2023	training	QLoRA: Efficient Finetuning of Quantized LLMs	039_qlora-efficient-finetuning-quantized-llms	qlora-efficient-finetuning-quantized-llms
+040	Self-Instruct	2022	data	Self-Instruct: Aligning Language Models with Self-Generated Instructions	040_self-instruct-aligning-language-models	self-instruct-aligning-language-models
+041	LIMA	2023	data	LIMA: Less Is More for Alignment	041_lima-less-is-more-for-alignment	lima-less-is-more-for-alignment
+042	phi-1	2023	data	Textbooks Are All You Need (phi-1)	042_phi-1-textbooks-are-all-you-need	phi-1-textbooks-are-all-you-need
+043	TinyStories	2023	data	TinyStories: How Small Can Language Models Be and Still Speak Coherent English	043_tinystories-small-language-models	tinystories-small-language-models
+044	Model Collapse	2023	data	The Curse of Recursion: Training on Generated Data Makes Models Forget	044_model-collapse-generated-data	model-collapse-generated-data
+045	Constitutional AI	2022	alignment	Constitutional AI: Harmlessness from AI Feedback	045_constitutional-ai-harmlessness-ai-feedback	constitutional-ai-harmlessness-ai-feedback
+046	DPO	2023	alignment	Direct Preference Optimization: Your Language Model is Secretly a Reward Model	046_dpo-direct-preference-optimization	dpo-direct-preference-optimization
+047	KTO	2024	alignment	KTO: Model Alignment as Prospect Theoretic Optimization	047_kto-prospect-theoretic-optimization	kto-prospect-theoretic-optimization
+048	ORPO	2024	alignment	ORPO: Monolithic Preference Optimization without Reference Model	048_orpo-monolithic-preference-optimization	orpo-monolithic-preference-optimization
+049	SimPO	2024	alignment	SimPO: Simple Preference Optimization with a Reference-Free Reward	049_simpo-reference-free-preference-optimization	simpo-reference-free-preference-optimization
+050	Self-Rewarding LM	2024	alignment	Self-Rewarding Language Models	050_self-rewarding-language-models	self-rewarding-language-models
+051	Weak-to-Strong	2023	alignment	Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision	051_weak-to-strong-generalization	weak-to-strong-generalization
+052	Chain-of-Thought	2022	reasoning	Chain-of-Thought Prompting Elicits Reasoning in Large Language Models	052_chain-of-thought-prompting-reasoning	chain-of-thought-prompting-reasoning
+053	Zero-shot CoT	2022	reasoning	Large Language Models are Zero-Shot Reasoners	053_zero-shot-cot-reasoning	zero-shot-cot-reasoning
+054	Self-Consistency	2023	reasoning	Self-Consistency Improves Chain of Thought Reasoning in Language Models	054_self-consistency-chain-of-thought	self-consistency-chain-of-thought-reasoning
+055	Tree of Thoughts	2023	reasoning	Tree of Thoughts: Deliberate Problem Solving with Large Language Models	055_tree-of-thoughts-deliberate-problem-solving	tree-of-thoughts-deliberate-problem-solving
+056	STaR	2022	reasoning	STaR: Bootstrapping Reasoning With Reasoning	056_star-bootstrapping-reasoning	star-bootstrapping-reasoning
+057	Process Reward Models	2023	reasoning	Let's Verify Step by Step (Process Reward Models)	057_process-reward-models-verify-step-by-step	process-reward-models-verify-step-by-step
+058	Test-Time Compute	2024	reasoning	Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters	058_scaling-test-time-compute-optimally	scaling-test-time-compute-optimally
+059	GRPO	2024	reasoning	DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO)	059_grpo-deepseek-mathematical-reasoning	grpo-deepseek-mathematical-reasoning
+060	DeepSeek-R1	2025	reasoning	DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning	060_deepseek-r1-reinforcement-learning-reasoning	deepseek-r1-reinforcement-learning-reasoning
+061	s1	2025	reasoning	s1: Simple test-time scaling	061_s1-simple-test-time-scaling	s1-simple-test-time-scaling
+062	DAPO	2025	reasoning	DAPO: An Open-Source LLM Reinforcement Learning System at Scale	062_dapo-open-source-llm-rl-system	dapo-open-source-llm-rl-system
+063	Dr. GRPO	2025	reasoning	Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO)	063_dr-grpo-critical-perspective-r1-zero	dr-grpo-critical-perspective-r1-zero
+064	RL vs Base Model	2025	reasoning	Does Reinforcement Learning Really Incentivize Reasoning Capacity Beyond the Base Model	064_rl-reasoning-beyond-base-model	rl-reasoning-beyond-base-model
+065	Coconut	2024	reasoning	Training Large Language Models to Reason in a Continuous Latent Space (Coconut)	065_coconut-continuous-latent-space-reasoning	coconut-continuous-latent-space-reasoning
+066	Absolute Zero	2025	reasoning	Absolute Zero: Reinforced Self-play Reasoning with Zero Data	066_absolute-zero-reinforced-self-play-reasoning	absolute-zero-reinforced-self-play-reasoning
+067	Tiny Recursive Model	2025	reasoning	Less is More: Recursive Reasoning with Tiny Networks	067_tiny-recursive-model-reasoning	tiny-recursive-model-reasoning
+068	Learning to Discover	2026	reasoning	Learning to Discover at Test Time	068_learning-to-discover-test-time	learning-to-discover-test-time
+069	ReAct	2022	agents	ReAct: Synergizing Reasoning and Acting in Language Models	069_react-synergizing-reasoning-acting	react-synergizing-reasoning-acting
+070	Toolformer	2023	agents	Toolformer: Language Models Can Teach Themselves to Use Tools	070_toolformer-teaching-lms-to-use-tools	toolformer-teaching-lms-to-use-tools
+071	Reflexion	2023	agents	Reflexion: Language Agents with Verbal Reinforcement Learning	071_reflexion-verbal-reinforcement-learning	reflexion-verbal-reinforcement-learning
+072	Generative Agents	2023	agents	Generative Agents: Interactive Simulacra of Human Behavior	072_generative-agents-interactive-simulacra	generative-agents-interactive-simulacra
+073	Voyager	2023	agents	Voyager: An Open-Ended Embodied Agent with Large Language Models	073_voyager-open-ended-embodied-agent	voyager-open-ended-embodied-agent
+074	SWE-bench	2023	agents	SWE-bench: Can Language Models Resolve Real-World GitHub Issues	074_swe-bench-resolve-github-issues	swe-bench-resolve-github-issues
+075	SWE-agent	2024	agents	SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering	075_swe-agent-agent-computer-interfaces	swe-agent-agent-computer-interfaces
+076	AlphaEvolve	2025	agents	AlphaEvolve: A coding agent for scientific and algorithmic discovery	076_alphaevolve-coding-agent-discovery	alphaevolve-coding-agent-discovery
+077	HyDE	2022	rag	Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE)	077_hyde-hypothetical-document-embeddings	hyde-hypothetical-document-embeddings
+078	Lost in the Middle	2023	rag	Lost in the Middle: How Language Models Use Long Contexts	078_lost-in-the-middle-long-contexts	lost-in-the-middle-long-contexts
+079	Self-RAG	2023	rag	Self-RAG: Learning to Retrieve Generate and Critique through Self-Reflection	079_self-rag-retrieve-generate-critique	self-rag-retrieve-generate-critique
+080	GraphRAG	2024	rag	From Local to Global: A Graph RAG Approach to Query-Focused Summarization	080_graphrag-graph-rag-query-summarization	graphrag-graph-rag-query-summarization
+081	Matryoshka Repr	2022	rag	Matryoshka Representation Learning	081_matryoshka-representation-learning	matryoshka-representation-learning
+082	Multi-Turn Lost	2025	rag	LLMs Get Lost In Multi-Turn Conversation	082_llms-lost-in-multi-turn-conversation	llms-lost-in-multi-turn-conversation
+083	Mixtral	2024	moe	Mixtral of Experts	083_mixtral-of-experts	mixtral-of-experts
+084	DeepSeekMoE	2024	moe	DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts	084_deepseek-moe-expert-specialization	deepseek-moe-expert-specialization
+085	LLaVA	2023	multimodal	Visual Instruction Tuning (LLaVA)	085_llava-visual-instruction-tuning	llava-visual-instruction-tuning
+086	Whisper	2022	multimodal	Robust Speech Recognition via Large-Scale Weak Supervision (Whisper)	086_whisper-robust-speech-recognition	whisper-robust-speech-recognition
+087	LLaDA	2025	diffusion	Large Language Diffusion Models (LLaDA)	087_llada-large-language-diffusion-models	llada-large-language-diffusion-models
+088	Induction Heads	2022	interpretability	In-context Learning and Induction Heads	088_induction-heads-in-context-learning	induction-heads-in-context-learning
+089	Toy Superposition	2022	interpretability	Toy Models of Superposition	089_toy-models-of-superposition	toy-models-of-superposition
+090	Monosemanticity	2023	interpretability	Towards Monosemanticity: Decomposing Language Models With Dictionary Learning	090_towards-monosemanticity-dictionary-learning	towards-monosemanticity-dictionary-learning
+091	ROME	2022	interpretability	Locating and Editing Factual Associations in GPT (ROME)	091_rome-locating-editing-factual-associations	rome-locating-editing-factual-associations
+092	GCG Attack	2023	safety	Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG)	092_gcg-adversarial-attacks-aligned-llms	gcg-adversarial-attacks-aligned-llms
+093	RepEngineering	2023	interpretability	Representation Engineering: A Top-Down Approach to AI Transparency	093_representation-engineering-ai-transparency	representation-engineering-ai-transparency
+094	Sleeper Agents	2024	safety	Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training	094_sleeper-agents-deceptive-llms	sleeper-agents-deceptive-llms
+095	Alignment Faking	2024	safety	Alignment Faking in Large Language Models	095_alignment-faking-large-language-models	alignment-faking-large-language-models
+096	Emergent Misalignment	2025	safety	Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs	096_emergent-misalignment-narrow-finetuning	emergent-misalignment-narrow-finetuning
+097	Subliminal Learning	2025	safety	Subliminal Learning: Language models transmit behavioral traits via hidden signals	097_subliminal-learning-hidden-signals	subliminal-learning-hidden-signals
+098	Persona Vectors	2025	interpretability	Persona Vectors: Monitoring and Controlling Character Traits in Language Models	098_persona-vectors-monitoring-controlling-traits	persona-vectors-monitoring-controlling-traits
+099	Reasoning Faithfulness	2025	interpretability	Reasoning Models Don't Always Say What They Think	099_reasoning-models-dont-say-what-they-think	reasoning-models-dont-say-what-they-think
+100	Artificial Hivemind	2025	interpretability	Artificial Hivemind: The Open-Ended Homogeneity of Language Models	100_artificial-hivemind-llm-homogeneity	artificial-hivemind-llm-homogeneity

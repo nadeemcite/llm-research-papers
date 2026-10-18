@@ -1,0 +1,65 @@
+title: "100 Papers That Changed AI — Season 2: The LLM Era"
+description: "Landmark LLM-era papers reimplemented from scratch in PyTorch, with plain-English explainers and notebooks validated on Kaggle."
+url: https://nadeemcite.github.io
+baseurl: /llm-research-papers
+author: nadeemcite
+lang: en
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: dark
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "GitHub":
+    - "https://github.com/nadeemcite/llm-research-papers"
+aux_links_new_tab: true
+
+gh_edit_link: true
+gh_edit_link_text: "View this page on GitHub"
+gh_edit_repository: "https://github.com/nadeemcite/llm-research-papers"
+gh_edit_branch: "main"
+gh_edit_view_mode: "blob"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+  collections: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: false
+
+exclude:
+  - scripts/
+  - skills/
+  - "**/.notebook_spec.json"
+  - .gitignore
+
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      title: "Home"
+      nav_order: 1
