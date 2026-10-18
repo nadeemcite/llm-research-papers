@@ -64,7 +64,7 @@ Cross-entropy loss for next-token prediction: logits[:, :-1] predict targets[:, 
 
 - **Training curves plot:** both models converge to loss ~0.047, with RoPE slightly slower early but reaching the same final loss.
 - **Extrapolation bar chart:** side-by-side accuracy and loss in three groups: length 64, length 128, and length 128 restricted to target positions 64-127. RoPE bars stay flat (98.5%, 98.7%, 98.9%); LearnedPE drops to 59.1% at length 128 and 20.4% on positions 64-127, whose embeddings were never trained (expected failure, not a tuned baseline).
-- **Long-term decay plot:** left, the paper's upper bound `(1/(d/2)) * sum_j |S_j(r)|` (d = 32) for r = 0..1023; right, the empirical mean of |q·k| over 1,000 random pairs for r = 0..127. The printed conclusion is computed: the bound's window mean falls from 4.78 (r in 0-31) to 2.81 (r in 992-1023), `Bound decays: True`; the random-pair mean does not (4.55 to 4.37, `decays: False`), because the bound only caps the score.
+- **Long-term decay plot:** left, the paper's upper bound `(1/(d/2)) * sum_j abs(S_j(r))` (d = 32) for r = 0..1023; right, the empirical mean of abs(q·k) over 1,000 random pairs for r = 0..127. The printed conclusion is computed: the bound's window mean falls from 4.78 (r in 0-31) to 2.81 (r in 992-1023), `Bound decays: True`; the random-pair mean does not (4.55 to 4.37, `decays: False`), because the bound only caps the score.
 
 ## Key Functions
 
