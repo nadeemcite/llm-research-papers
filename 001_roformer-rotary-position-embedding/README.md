@@ -18,7 +18,7 @@ The rotation matrix is block-diagonal, with each 2-D sub-space rotated by a diff
 
 This gives RoPE three properties the paper highlights: it handles variable sequence lengths naturally, the attention score decays as tokens get farther apart (long-term decay), and it works with linear attention (a faster attention variant). On the CAIL2019-SCM Chinese legal text matching benchmark, RoFormer (the paper's RoPE-equipped model) at 1024-token length outperforms WoBERT by 1.5% absolute accuracy (69.79% vs 68.10%), while at the standard 512 length it matches WoBERT (68.29% vs 68.10%).
 
-This repo's notebook implements RoPE in a small character-level Transformer and shows its length-extrapolation advantage: a model trained on length-64 sequences maintains about 98.7% next-token accuracy at 128 tokens (2× the training length), while the same model with learned absolute positions collapses to about 59%.
+This repo's notebook implements RoPE in a small character-level Transformer and shows its length-extrapolation advantage: a model trained on length-64 sequences keeps about 98.7% next-token accuracy at 128 tokens (2× the training length), while the same model with learned absolute positions drops to about 59% overall. That overall number mixes the 64 positions LearnedPE was trained on with the 64 it never saw; on positions 64-127 only, LearnedPE scores 20.4% (chance is 5%) against 98.9% for RoPE. LearnedPE's embeddings for those positions are never trained, so this is the expected failure mode of learned absolute positions, not a tuned baseline.
 
 ## What Problem Does It Solve
 
@@ -33,7 +33,7 @@ RoPE's insight: instead of adding a position tag, *rotate* each word's vector by
 - **Rotation instead of addition:** Position information is injected by multiplying (rotating) the query and key vectors with a rotation matrix, not by adding a position vector to the input embedding.
 - **Relative position from absolute rotation:** Because qₘᵀkₙ = (RₘW_qxₘ)ᵀ(RₙW_kxₙ) = xₘᵀW_q Rₙ₋ₘ W_kxₙ, the attention score depends only on the relative distance (n − m), even though each vector is rotated by its *absolute* position.
 - **Multi-frequency rotation:** The d-dimensional head is split into d/2 pairs, each rotated by a different frequency θᵢ = 10000⁻²ⁱ/ᵈ. Low-frequency pairs capture long-range dependencies; high-frequency pairs capture short-range ones.
-- **Long-term decay:** With this frequency choice, the inner product between query and key decays as relative distance grows — matching the intuition that distant tokens should attend less to each other.
+- **Long-term decay:** The paper (Section 3.4.3) proves an *upper bound* on the relative-position term of the attention score that shrinks as relative distance grows. It is a bound, not a claim that every query-key product gets smaller.
 
 ## Key Method Details
 
@@ -52,7 +52,7 @@ RoPE's insight: instead of adding a position tag, *rotate* each word's vector by
 
 ### What the Notebook Result Shows
 
-On 512 unseen test sequences, both models reach about 98.5% next-token accuracy at the training length (64): LearnedPE 98.48%, RoPE 98.51%. At the extrapolation length (128, 2× training), RoPE maintains 98.68% accuracy (loss 0.038) while LearnedPE collapses to 59.15% (loss 2.355) — a 39.9% relative accuracy degradation for LearnedPE versus −0.2% for RoPE. The long-term decay plot shows the RoPE inner product decreasing in magnitude with relative distance. This toy task is not comparable to the paper's CAIL2019-SCM result; it demonstrates the *mechanism* (relative position → better extrapolation) on a controlled setup.
+On 512 unseen test sequences, both models reach about 98.5% next-token accuracy at the training length (64): LearnedPE 98.48%, RoPE 98.51%. At the extrapolation length (128, 2× training), RoPE maintains 98.68% accuracy (loss 0.038) while LearnedPE drops to 59.15% (loss 2.355) — a 39.9% relative accuracy degradation for LearnedPE versus −0.2% for RoPE. Restricted to the extrapolated positions 64-127, LearnedPE reaches 20.42% accuracy (loss 4.625; chance is 5%) and RoPE 98.85% (loss 0.029). LearnedPE's embeddings for positions 64-127 are never trained, so this failure is the expected one, not a tuned baseline. The decay cell plots the paper's upper bound for our head size (d = 32): its mean over distances 0-31 is 4.78 and over 992-1023 is 2.81, so the bound decays, though not monotonically (3.83 at r = 32, 3.44 at r = 64, 3.87 at r = 127). The empirical mean of |q·k| over 1,000 random pairs does *not* decay (4.55 over distances 0-31 vs 4.37 over 992-1023), which is consistent with the bound only capping the score. This toy task is not comparable to the paper's CAIL2019-SCM result; it demonstrates the *mechanism* (relative position → better extrapolation) on a controlled setup.
 
 ## Influence
 
@@ -65,6 +65,6 @@ RoPE became the default position encoding for most open-source large language mo
 | File | Description |
 |------|-------------|
 | [README.md](README.md) | This overview — a 5-minute read covering the paper's summary, core idea, key method details, influence, and a plain-English explanation of the problem it solves |
-| [solution.ipynb](https://nbviewer.org/github/nadeemcite/llm-research-papers/blob/main/001_roformer-rotary-position-embedding/solution.ipynb) | From-scratch PyTorch nanoGPT with RoPE vs learned position embedding, trained on synthetic counting sequences to compare length extrapolation (RoPE 98.7% vs LearnedPE 59% at 2x training length) |
+| [solution.ipynb](https://nbviewer.org/github/nadeemcite/llm-research-papers/blob/main/001_roformer-rotary-position-embedding/solution.ipynb) | From-scratch PyTorch nanoGPT with RoPE vs learned position embedding, trained on synthetic counting sequences to compare length extrapolation (RoPE 98.7% vs LearnedPE 59% at 2x training length, 98.9% vs 20.4% on the unseen positions 64-127 only) |
 | [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md) | Section-by-section breakdown of the notebook — what each cell does, data flow, tensor shapes, and key design decisions |
 | [TALK.md](TALK.md) | Press coverage, Q&A answered from the paper, citations, and common misconceptions about the paper |

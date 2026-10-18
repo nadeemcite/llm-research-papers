@@ -7,7 +7,7 @@ nav_order: 1
 
 ## Overview
 
-The notebook implements a small character-level Transformer (nanoGPT-style) in PyTorch with two position-encoding variants — learned absolute (LearnedPE) and rotary (RoPE) — and compares their length-extrapolation ability. Both models are trained on 4096 synthetic counting sequences of length 64 for 100 epochs, then evaluated on length-64 and length-128 test sequences. RoPE maintains about 98.7% next-token accuracy at 2× the training length, while LearnedPE collapses to about 59%.
+The notebook implements a small character-level Transformer (nanoGPT-style) in PyTorch with two position-encoding variants — learned absolute (LearnedPE) and rotary (RoPE) — and compares their length-extrapolation ability. Both models are trained on 4096 synthetic counting sequences of length 64 for 100 epochs, then evaluated on length-64 and length-128 test sequences. RoPE maintains about 98.7% next-token accuracy at 2× the training length, while LearnedPE drops to about 59% overall (20.4% on the unseen positions 64-127 alone, where its position embeddings were never trained).
 
 ## Section-by-Section Breakdown
 
@@ -63,8 +63,8 @@ Cross-entropy loss for next-token prediction: logits[:, :-1] predict targets[:, 
 ### 6. Results and Plots
 
 - **Training curves plot:** both models converge to loss ~0.047, with RoPE slightly slower early but reaching the same final loss.
-- **Extrapolation bar chart:** side-by-side accuracy and loss at length 64 vs 128. RoPE bars stay flat; LearnedPE accuracy bar drops sharply at 128.
-- **Long-term decay plot:** inner product of a fixed query (position 0) with keys at positions 0..127, showing the decay in magnitude with relative distance.
+- **Extrapolation bar chart:** side-by-side accuracy and loss in three groups: length 64, length 128, and length 128 restricted to target positions 64-127. RoPE bars stay flat (98.5%, 98.7%, 98.9%); LearnedPE drops to 59.1% at length 128 and 20.4% on positions 64-127, whose embeddings were never trained (expected failure, not a tuned baseline).
+- **Long-term decay plot:** left, the paper's upper bound `(1/(d/2)) * sum_j |S_j(r)|` (d = 32) for r = 0..1023; right, the empirical mean of |q·k| over 1,000 random pairs for r = 0..127. The printed conclusion is computed: the bound's window mean falls from 4.78 (r in 0-31) to 2.81 (r in 992-1023), `Bound decays: True`; the random-pair mean does not (4.55 to 4.37, `decays: False`), because the bound only caps the score.
 
 ## Key Functions
 
