@@ -41,181 +41,181 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 004 | 2019 | [Root Mean Square Layer Normalization (RMSNorm)](004_rmsnorm-root-mean-square-layer-norm/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rmsnorm-root-mean-square-layer-normalization) |
-| 003 | 2020 | [GLU Variants Improve Transformer (SwiGLU)](003_swiglu-glu-variants-improve-transformer/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/swiglu-glu-variants-improve-transformer) |
+| 004 | 2019 | Root Mean Square Layer Normalization (RMSNorm) | _In progress_ |
+| 003 | 2020 | GLU Variants Improve Transformer (SwiGLU) | _In progress_ |
 | 001 | 2021 | [RoFormer: Enhanced Transformer with Rotary Position Embedding](001_roformer-rotary-position-embedding/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/roformer-rotary-position-embedding) |
-| 002 | 2021 | [Train Short Test Long: Attention with Linear Biases (ALiBi)](002_alibi-attention-with-linear-biases/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/alibi-attention-with-linear-biases) |
-| 005 | 2023 | [GQA: Training Generalized Multi-Query Transformer Models](005_gqa-generalized-multi-query-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gqa-generalized-multi-query-attention) |
-| 006 | 2023 | [LLaMA: Open and Efficient Foundation Language Models](006_llama-open-and-efficient-foundation-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/llama-open-and-efficient-foundation-language-models) |
-| 007 | 2023 | [Mistral 7B](007_mistral-7b-sliding-window-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/mistral-7b-sliding-window-attention) |
-| 008 | 2023 | [YaRN: Efficient Context Window Extension of Large Language Models](008_yarn-efficient-context-window-extension/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/yarn-efficient-context-window-extension) |
-| 009 | 2024 | [DeepSeek-V2: Multi-head Latent Attention (MLA)](009_deepseek-v2-multi-head-latent-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-v2-multi-head-latent-attention) |
-| 010 | 2024 | [Better and Faster LLMs via Multi-token Prediction](010_multi-token-prediction-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/multi-token-prediction-llms) |
-| 011 | 2024 | [Differential Transformer](011_differential-transformer/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/differential-transformer) |
-| 015 | 2024 | [Byte Latent Transformer: Patches Scale Better Than Tokens](015_byte-latent-transformer/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/byte-latent-transformer) |
-| 012 | 2025 | [Gated Attention for Large Language Models](012_gated-attention-llm/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gated-attention-large-language-models) |
-| 013 | 2025 | [mHC: Manifold-Constrained Hyper-Connections](013_mhc-manifold-constrained-hyper-connections/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/mhc-manifold-constrained-hyper-connections) |
-| 014 | 2026 | [Conditional Memory via Scalable Lookup (Engram)](014_engram-conditional-memory-scalable-lookup/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/engram-conditional-memory-scalable-lookup) |
+| 002 | 2021 | Train Short Test Long: Attention with Linear Biases (ALiBi) | _In progress_ |
+| 005 | 2023 | GQA: Training Generalized Multi-Query Transformer Models | _In progress_ |
+| 006 | 2023 | LLaMA: Open and Efficient Foundation Language Models | _In progress_ |
+| 007 | 2023 | Mistral 7B | _In progress_ |
+| 008 | 2023 | YaRN: Efficient Context Window Extension of Large Language Models | _In progress_ |
+| 009 | 2024 | DeepSeek-V2: Multi-head Latent Attention (MLA) | _In progress_ |
+| 010 | 2024 | Better and Faster LLMs via Multi-token Prediction | _In progress_ |
+| 011 | 2024 | Differential Transformer | _In progress_ |
+| 015 | 2024 | Byte Latent Transformer: Patches Scale Better Than Tokens | _In progress_ |
+| 012 | 2025 | Gated Attention for Large Language Models | _In progress_ |
+| 013 | 2025 | mHC: Manifold-Constrained Hyper-Connections | _In progress_ |
+| 014 | 2026 | Conditional Memory via Scalable Lookup (Engram) | _In progress_ |
 
 ### State Space & Linear Models
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 016 | 2021 | [Efficiently Modeling Long Sequences with Structured State Spaces (S4)](016_s4-structured-state-spaces/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/s4-structured-state-spaces) |
-| 019 | 2023 | [RWKV: Reinventing RNNs for the Transformer Era](019_rwkv-reinventing-rnns-transformer-era/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rwkv-reinventing-rnns-transformer-era) |
-| 017 | 2024 | [xLSTM: Extended Long Short-Term Memory](017_xlstm-extended-lstm/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/xlstm-extended-long-short-term-memory) |
-| 018 | 2024 | [Transformers are SSMs: Generalized Models via Structured State Space Duality](018_mamba-2-structured-state-space-duality/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/mamba-2-structured-state-space-duality) |
-| 020 | 2024 | [Gated Delta Networks: Improving Mamba2 with Delta Rule](020_gated-deltanet-improving-mamba2/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gated-deltanet-improving-mamba2) |
-| 021 | 2025 | [Kimi Linear: An Expressive Efficient Attention Architecture](021_kimi-linear-attention-architecture/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/kimi-linear-attention-architecture) |
-| 022 | 2025 | [Titans: Learning to Memorize at Test Time](022_titans-learning-to-memorize-test-time/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/titans-learning-to-memorize-test-time) |
+| 016 | 2021 | Efficiently Modeling Long Sequences with Structured State Spaces (S4) | _In progress_ |
+| 019 | 2023 | RWKV: Reinventing RNNs for the Transformer Era | _In progress_ |
+| 017 | 2024 | xLSTM: Extended Long Short-Term Memory | _In progress_ |
+| 018 | 2024 | Transformers are SSMs: Generalized Models via Structured State Space Duality | _In progress_ |
+| 020 | 2024 | Gated Delta Networks: Improving Mamba2 with Delta Rule | _In progress_ |
+| 021 | 2025 | Kimi Linear: An Expressive Efficient Attention Architecture | _In progress_ |
+| 022 | 2025 | Titans: Learning to Memorize at Test Time | _In progress_ |
 
 ### Inference Efficiency
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 025 | 2022 | [Fast Inference from Transformers via Speculative Decoding](025_speculative-decoding-fast-inference/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/speculative-decoding-fast-inference) |
-| 023 | 2023 | [FlashAttention-2: Faster Attention with Better Parallelism](023_flashattention-2-faster-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/flashattention-2-faster-attention) |
-| 024 | 2023 | [Efficient Memory Management for LLM Serving with PagedAttention (vLLM)](024_pagedattention-vllm-memory-management/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/pagedattention-vllm-memory-management) |
-| 027 | 2023 | [Efficient Streaming Language Models with Attention Sinks](027_streamingllm-attention-sinks/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/streamingllm-attention-sinks) |
-| 026 | 2024 | [Medusa: Simple LLM Inference Acceleration with Multiple Decoding Heads](026_medusa-multiple-decoding-heads/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/medusa-multiple-decoding-heads) |
-| 032 | 2025 | [Native Sparse Attention: Hardware-Aligned and Natively Trainable](032_native-sparse-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/native-sparse-attention) |
-| 033 | 2025 | [DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention)](033_deepseek-sparse-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-sparse-attention) |
+| 025 | 2022 | Fast Inference from Transformers via Speculative Decoding | _In progress_ |
+| 023 | 2023 | FlashAttention-2: Faster Attention with Better Parallelism | _In progress_ |
+| 024 | 2023 | Efficient Memory Management for LLM Serving with PagedAttention (vLLM) | _In progress_ |
+| 027 | 2023 | Efficient Streaming Language Models with Attention Sinks | _In progress_ |
+| 026 | 2024 | Medusa: Simple LLM Inference Acceleration with Multiple Decoding Heads | _In progress_ |
+| 032 | 2025 | Native Sparse Attention: Hardware-Aligned and Natively Trainable | _In progress_ |
+| 033 | 2025 | DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention) | _In progress_ |
 
 ### Quantization
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 028 | 2022 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](028_llm-int8-8-bit-matmul/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/llm-int8-8-bit-matrix-multiplication) |
-| 029 | 2022 | [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](029_gptq-post-training-quantization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gptq-post-training-quantization) |
-| 030 | 2023 | [AWQ: Activation-aware Weight Quantization for LLM Compression](030_awq-activation-aware-weight-quantization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/awq-activation-aware-weight-quantization) |
-| 031 | 2024 | [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](031_bitnet-b1.58-1-bit-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/bitnet-b1.58-1-bit-llms) |
+| 028 | 2022 | LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale | _In progress_ |
+| 029 | 2022 | GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers | _In progress_ |
+| 030 | 2023 | AWQ: Activation-aware Weight Quantization for LLM Compression | _In progress_ |
+| 031 | 2024 | The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits | _In progress_ |
 
 ### Scaling Laws & Training
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 034 | 2020 | [Scaling Laws for Neural Language Models (Kaplan)](034_scaling-laws-neural-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/scaling-laws-neural-language-models) |
-| 035 | 2024 | [DeepSeek-V3 Technical Report](035_deepseek-v3-technical-report/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-v3-technical-report) |
-| 036 | 2025 | [Muon is Scalable for LLM Training](036_muon-scalable-llm-training/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/muon-scalable-llm-training) |
-| 037 | 2025 | [Superposition Yields Robust Neural Scaling](037_superposition-robust-neural-scaling/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/superposition-robust-neural-scaling) |
+| 034 | 2020 | Scaling Laws for Neural Language Models (Kaplan) | _In progress_ |
+| 035 | 2024 | DeepSeek-V3 Technical Report | _In progress_ |
+| 036 | 2025 | Muon is Scalable for LLM Training | _In progress_ |
+| 037 | 2025 | Superposition Yields Robust Neural Scaling | _In progress_ |
 
 ### Training Methods
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 038 | 2022 | [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](038_grokking-generalization-beyond-overfitting/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/grokking-generalization-beyond-overfitting) |
-| 039 | 2023 | [QLoRA: Efficient Finetuning of Quantized LLMs](039_qlora-efficient-finetuning-quantized-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/qlora-efficient-finetuning-quantized-llms) |
+| 038 | 2022 | Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets | _In progress_ |
+| 039 | 2023 | QLoRA: Efficient Finetuning of Quantized LLMs | _In progress_ |
 
 ### Data & Curation
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 040 | 2022 | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](040_self-instruct-aligning-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-instruct-aligning-language-models) |
-| 041 | 2023 | [LIMA: Less Is More for Alignment](041_lima-less-is-more-for-alignment/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/lima-less-is-more-for-alignment) |
-| 042 | 2023 | [Textbooks Are All You Need (phi-1)](042_phi-1-textbooks-are-all-you-need/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/phi-1-textbooks-are-all-you-need) |
-| 043 | 2023 | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English](043_tinystories-small-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/tinystories-small-language-models) |
-| 044 | 2023 | [The Curse of Recursion: Training on Generated Data Makes Models Forget](044_model-collapse-generated-data/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/model-collapse-generated-data) |
+| 040 | 2022 | Self-Instruct: Aligning Language Models with Self-Generated Instructions | _In progress_ |
+| 041 | 2023 | LIMA: Less Is More for Alignment | _In progress_ |
+| 042 | 2023 | Textbooks Are All You Need (phi-1) | _In progress_ |
+| 043 | 2023 | TinyStories: How Small Can Language Models Be and Still Speak Coherent English | _In progress_ |
+| 044 | 2023 | The Curse of Recursion: Training on Generated Data Makes Models Forget | _In progress_ |
 
 ### Alignment & Preference
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 045 | 2022 | [Constitutional AI: Harmlessness from AI Feedback](045_constitutional-ai-harmlessness-ai-feedback/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/constitutional-ai-harmlessness-ai-feedback) |
-| 046 | 2023 | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](046_dpo-direct-preference-optimization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/dpo-direct-preference-optimization) |
-| 051 | 2023 | [Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision](051_weak-to-strong-generalization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/weak-to-strong-generalization) |
-| 047 | 2024 | [KTO: Model Alignment as Prospect Theoretic Optimization](047_kto-prospect-theoretic-optimization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/kto-prospect-theoretic-optimization) |
-| 048 | 2024 | [ORPO: Monolithic Preference Optimization without Reference Model](048_orpo-monolithic-preference-optimization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/orpo-monolithic-preference-optimization) |
-| 049 | 2024 | [SimPO: Simple Preference Optimization with a Reference-Free Reward](049_simpo-reference-free-preference-optimization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/simpo-reference-free-preference-optimization) |
-| 050 | 2024 | [Self-Rewarding Language Models](050_self-rewarding-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-rewarding-language-models) |
+| 045 | 2022 | Constitutional AI: Harmlessness from AI Feedback | _In progress_ |
+| 046 | 2023 | Direct Preference Optimization: Your Language Model is Secretly a Reward Model | _In progress_ |
+| 051 | 2023 | Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision | _In progress_ |
+| 047 | 2024 | KTO: Model Alignment as Prospect Theoretic Optimization | _In progress_ |
+| 048 | 2024 | ORPO: Monolithic Preference Optimization without Reference Model | _In progress_ |
+| 049 | 2024 | SimPO: Simple Preference Optimization with a Reference-Free Reward | _In progress_ |
+| 050 | 2024 | Self-Rewarding Language Models | _In progress_ |
 
 ### Reasoning
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 052 | 2022 | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](052_chain-of-thought-prompting-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/chain-of-thought-prompting-reasoning) |
-| 053 | 2022 | [Large Language Models are Zero-Shot Reasoners](053_zero-shot-cot-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/zero-shot-cot-reasoning) |
-| 056 | 2022 | [STaR: Bootstrapping Reasoning With Reasoning](056_star-bootstrapping-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/star-bootstrapping-reasoning) |
-| 054 | 2023 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](054_self-consistency-chain-of-thought/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-consistency-chain-of-thought-reasoning) |
-| 055 | 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](055_tree-of-thoughts-deliberate-problem-solving/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/tree-of-thoughts-deliberate-problem-solving) |
-| 057 | 2023 | [Let's Verify Step by Step (Process Reward Models)](057_process-reward-models-verify-step-by-step/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/process-reward-models-verify-step-by-step) |
-| 058 | 2024 | [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](058_scaling-test-time-compute-optimally/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/scaling-test-time-compute-optimally) |
-| 059 | 2024 | [DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO)](059_grpo-deepseek-mathematical-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/grpo-deepseek-mathematical-reasoning) |
-| 065 | 2024 | [Training Large Language Models to Reason in a Continuous Latent Space (Coconut)](065_coconut-continuous-latent-space-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/coconut-continuous-latent-space-reasoning) |
-| 060 | 2025 | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](060_deepseek-r1-reinforcement-learning-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-r1-reinforcement-learning-reasoning) |
-| 061 | 2025 | [s1: Simple test-time scaling](061_s1-simple-test-time-scaling/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/s1-simple-test-time-scaling) |
-| 062 | 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](062_dapo-open-source-llm-rl-system/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/dapo-open-source-llm-rl-system) |
-| 063 | 2025 | [Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO)](063_dr-grpo-critical-perspective-r1-zero/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/dr-grpo-critical-perspective-r1-zero) |
-| 064 | 2025 | [Does Reinforcement Learning Really Incentivize Reasoning Capacity Beyond the Base Model](064_rl-reasoning-beyond-base-model/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rl-reasoning-beyond-base-model) |
-| 066 | 2025 | [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](066_absolute-zero-reinforced-self-play-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/absolute-zero-reinforced-self-play-reasoning) |
-| 067 | 2025 | [Less is More: Recursive Reasoning with Tiny Networks](067_tiny-recursive-model-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/tiny-recursive-model-reasoning) |
-| 068 | 2026 | [Learning to Discover at Test Time](068_learning-to-discover-test-time/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/learning-to-discover-test-time) |
+| 052 | 2022 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | _In progress_ |
+| 053 | 2022 | Large Language Models are Zero-Shot Reasoners | _In progress_ |
+| 056 | 2022 | STaR: Bootstrapping Reasoning With Reasoning | _In progress_ |
+| 054 | 2023 | Self-Consistency Improves Chain of Thought Reasoning in Language Models | _In progress_ |
+| 055 | 2023 | Tree of Thoughts: Deliberate Problem Solving with Large Language Models | _In progress_ |
+| 057 | 2023 | Let's Verify Step by Step (Process Reward Models) | _In progress_ |
+| 058 | 2024 | Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters | _In progress_ |
+| 059 | 2024 | DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO) | _In progress_ |
+| 065 | 2024 | Training Large Language Models to Reason in a Continuous Latent Space (Coconut) | _In progress_ |
+| 060 | 2025 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | _In progress_ |
+| 061 | 2025 | s1: Simple test-time scaling | _In progress_ |
+| 062 | 2025 | DAPO: An Open-Source LLM Reinforcement Learning System at Scale | _In progress_ |
+| 063 | 2025 | Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO) | _In progress_ |
+| 064 | 2025 | Does Reinforcement Learning Really Incentivize Reasoning Capacity Beyond the Base Model | _In progress_ |
+| 066 | 2025 | Absolute Zero: Reinforced Self-play Reasoning with Zero Data | _In progress_ |
+| 067 | 2025 | Less is More: Recursive Reasoning with Tiny Networks | _In progress_ |
+| 068 | 2026 | Learning to Discover at Test Time | _In progress_ |
 
 ### Agents & Tools
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 069 | 2022 | [ReAct: Synergizing Reasoning and Acting in Language Models](069_react-synergizing-reasoning-acting/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/react-synergizing-reasoning-acting) |
-| 070 | 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](070_toolformer-teaching-lms-to-use-tools/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/toolformer-teaching-lms-to-use-tools) |
-| 071 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](071_reflexion-verbal-reinforcement-learning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/reflexion-verbal-reinforcement-learning) |
-| 072 | 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](072_generative-agents-interactive-simulacra/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/generative-agents-interactive-simulacra) |
-| 073 | 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](073_voyager-open-ended-embodied-agent/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/voyager-open-ended-embodied-agent) |
-| 074 | 2023 | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues](074_swe-bench-resolve-github-issues/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/swe-bench-resolve-github-issues) |
-| 075 | 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](075_swe-agent-agent-computer-interfaces/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/swe-agent-agent-computer-interfaces) |
-| 076 | 2025 | [AlphaEvolve: A coding agent for scientific and algorithmic discovery](076_alphaevolve-coding-agent-discovery/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/alphaevolve-coding-agent-discovery) |
+| 069 | 2022 | ReAct: Synergizing Reasoning and Acting in Language Models | _In progress_ |
+| 070 | 2023 | Toolformer: Language Models Can Teach Themselves to Use Tools | _In progress_ |
+| 071 | 2023 | Reflexion: Language Agents with Verbal Reinforcement Learning | _In progress_ |
+| 072 | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | _In progress_ |
+| 073 | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | _In progress_ |
+| 074 | 2023 | SWE-bench: Can Language Models Resolve Real-World GitHub Issues | _In progress_ |
+| 075 | 2024 | SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering | _In progress_ |
+| 076 | 2025 | AlphaEvolve: A coding agent for scientific and algorithmic discovery | _In progress_ |
 
 ### RAG & Retrieval
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 077 | 2022 | [Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE)](077_hyde-hypothetical-document-embeddings/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/hyde-hypothetical-document-embeddings) |
-| 081 | 2022 | [Matryoshka Representation Learning](081_matryoshka-representation-learning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/matryoshka-representation-learning) |
-| 078 | 2023 | [Lost in the Middle: How Language Models Use Long Contexts](078_lost-in-the-middle-long-contexts/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/lost-in-the-middle-long-contexts) |
-| 079 | 2023 | [Self-RAG: Learning to Retrieve Generate and Critique through Self-Reflection](079_self-rag-retrieve-generate-critique/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-rag-retrieve-generate-critique) |
-| 080 | 2024 | [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](080_graphrag-graph-rag-query-summarization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/graphrag-graph-rag-query-summarization) |
-| 082 | 2025 | [LLMs Get Lost In Multi-Turn Conversation](082_llms-lost-in-multi-turn-conversation/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/llms-lost-in-multi-turn-conversation) |
+| 077 | 2022 | Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE) | _In progress_ |
+| 081 | 2022 | Matryoshka Representation Learning | _In progress_ |
+| 078 | 2023 | Lost in the Middle: How Language Models Use Long Contexts | _In progress_ |
+| 079 | 2023 | Self-RAG: Learning to Retrieve Generate and Critique through Self-Reflection | _In progress_ |
+| 080 | 2024 | From Local to Global: A Graph RAG Approach to Query-Focused Summarization | _In progress_ |
+| 082 | 2025 | LLMs Get Lost In Multi-Turn Conversation | _In progress_ |
 
 ### Mixture of Experts
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 083 | 2024 | [Mixtral of Experts](083_mixtral-of-experts/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/mixtral-of-experts) |
-| 084 | 2024 | [DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts](084_deepseek-moe-expert-specialization/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-moe-expert-specialization) |
+| 083 | 2024 | Mixtral of Experts | _In progress_ |
+| 084 | 2024 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts | _In progress_ |
 
 ### Multimodal
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 086 | 2022 | [Robust Speech Recognition via Large-Scale Weak Supervision (Whisper)](086_whisper-robust-speech-recognition/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/whisper-robust-speech-recognition) |
-| 085 | 2023 | [Visual Instruction Tuning (LLaVA)](085_llava-visual-instruction-tuning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/llava-visual-instruction-tuning) |
+| 086 | 2022 | Robust Speech Recognition via Large-Scale Weak Supervision (Whisper) | _In progress_ |
+| 085 | 2023 | Visual Instruction Tuning (LLaVA) | _In progress_ |
 
 ### Diffusion LMs
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 087 | 2025 | [Large Language Diffusion Models (LLaDA)](087_llada-large-language-diffusion-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/llada-large-language-diffusion-models) |
+| 087 | 2025 | Large Language Diffusion Models (LLaDA) | _In progress_ |
 
 ### Interpretability
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 088 | 2022 | [In-context Learning and Induction Heads](088_induction-heads-in-context-learning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/induction-heads-in-context-learning) |
-| 089 | 2022 | [Toy Models of Superposition](089_toy-models-of-superposition/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/toy-models-of-superposition) |
-| 091 | 2022 | [Locating and Editing Factual Associations in GPT (ROME)](091_rome-locating-editing-factual-associations/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rome-locating-editing-factual-associations) |
-| 090 | 2023 | [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](090_towards-monosemanticity-dictionary-learning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/towards-monosemanticity-dictionary-learning) |
-| 093 | 2023 | [Representation Engineering: A Top-Down Approach to AI Transparency](093_representation-engineering-ai-transparency/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/representation-engineering-ai-transparency) |
-| 098 | 2025 | [Persona Vectors: Monitoring and Controlling Character Traits in Language Models](098_persona-vectors-monitoring-controlling-traits/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/persona-vectors-monitoring-controlling-traits) |
-| 099 | 2025 | [Reasoning Models Don't Always Say What They Think](099_reasoning-models-dont-say-what-they-think/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/reasoning-models-dont-say-what-they-think) |
-| 100 | 2025 | [Artificial Hivemind: The Open-Ended Homogeneity of Language Models](100_artificial-hivemind-llm-homogeneity/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/artificial-hivemind-llm-homogeneity) |
+| 088 | 2022 | In-context Learning and Induction Heads | _In progress_ |
+| 089 | 2022 | Toy Models of Superposition | _In progress_ |
+| 091 | 2022 | Locating and Editing Factual Associations in GPT (ROME) | _In progress_ |
+| 090 | 2023 | Towards Monosemanticity: Decomposing Language Models With Dictionary Learning | _In progress_ |
+| 093 | 2023 | Representation Engineering: A Top-Down Approach to AI Transparency | _In progress_ |
+| 098 | 2025 | Persona Vectors: Monitoring and Controlling Character Traits in Language Models | _In progress_ |
+| 099 | 2025 | Reasoning Models Don't Always Say What They Think | _In progress_ |
+| 100 | 2025 | Artificial Hivemind: The Open-Ended Homogeneity of Language Models | _In progress_ |
 
 ### Safety & Alignment
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 092 | 2023 | [Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG)](092_gcg-adversarial-attacks-aligned-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gcg-adversarial-attacks-aligned-llms) |
-| 094 | 2024 | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](094_sleeper-agents-deceptive-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/sleeper-agents-deceptive-llms) |
-| 095 | 2024 | [Alignment Faking in Large Language Models](095_alignment-faking-large-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/alignment-faking-large-language-models) |
-| 096 | 2025 | [Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs](096_emergent-misalignment-narrow-finetuning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/emergent-misalignment-narrow-finetuning) |
-| 097 | 2025 | [Subliminal Learning: Language models transmit behavioral traits via hidden signals](097_subliminal-learning-hidden-signals/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/subliminal-learning-hidden-signals) |
+| 092 | 2023 | Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG) | _In progress_ |
+| 094 | 2024 | Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training | _In progress_ |
+| 095 | 2024 | Alignment Faking in Large Language Models | _In progress_ |
+| 096 | 2025 | Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs | _In progress_ |
+| 097 | 2025 | Subliminal Learning: Language models transmit behavioral traits via hidden signals | _In progress_ |
 
 <sub>Year = first public release (usually arXiv). Numbers follow the order of the curated reading list.</sub>
 

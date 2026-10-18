@@ -282,8 +282,12 @@ def build_readme(papers):
         L.append('| # | Year | Paper | Run it |')
         L.append('|---|---|---|---|')
         for p in ps:
-            L.append(f'| {p["num"]} | {p["year"]} | [{p["title"]}]({p["folder"]}/) | '
-                     f'[![Open in Kaggle]({kaggle_badge})](https://www.kaggle.com/code/nadymsazad/{p["kaggle"]}) |')
+            folder_exists = (ROOT / p['folder'] / 'README.md').is_file()
+            if folder_exists:
+                L.append(f'| {p["num"]} | {p["year"]} | [{p["title"]}]({p["folder"]}/) | '
+                         f'[![Open in Kaggle]({kaggle_badge})](https://www.kaggle.com/code/nadymsazad/{p["kaggle"]}) |')
+            else:
+                L.append(f'| {p["num"]} | {p["year"]} | {p["title"]} | _In progress_ |')
         L.append('')
     L.append('<sub>Year = first public release (usually arXiv). Numbers follow the order of the curated reading list.</sub>\n')
     L.append('## Watch: Backprop Daily\n')
