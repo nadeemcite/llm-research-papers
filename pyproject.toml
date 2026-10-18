@@ -1,7 +1,7 @@
 [project]
 name = "llm-research-papers"
 version = "0.1.0"
-description = "100 Papers That Changed AI — Season 2: The LLM Era. Landmark LLM-era papers reimplemented from scratch in PyTorch."
+description = "100 LLM Era Papers. Landmark LLM-era papers reimplemented from scratch in PyTorch."
 requires-python = ">=3.11"
 dependencies = [
     "google-auth>=2.62.0",
@@ -11,4 +11,5 @@ dependencies = [
     "kaggle>=2.2.4",
     "matplotlib>=3.11.2",
     "nbconvert>=7.17.2",
+    "torch",
 ]

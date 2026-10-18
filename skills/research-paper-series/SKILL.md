@@ -1,6 +1,6 @@
 ---
 name: research-paper-series
-description: Use when adding, fixing or reviewing a paper folder (NNN_slug/) in nadeemcite/llm-research-papers ("100 Papers That Changed AI", Season 2: The LLM Era), or before ANY commit/push to that repo. Covers the README/TALK/CODE_ARCHITECTURE/notebook templates, the Kaggle run, the Backprop Daily Video line, release-day updates, and the mandatory pre-commit gate (scripts/check_paper.py + manual checklist).
+description: Use when adding, fixing or reviewing a paper folder (NNN_slug/) in nadeemcite/llm-research-papers ("100 LLM Era Papers", Season 2), or before ANY commit/push to that repo. Covers the README/TALK/CODE_ARCHITECTURE/notebook templates, the Kaggle run, the Backprop Daily Video line, release-day updates, and the mandatory pre-commit gate (scripts/check_paper.py + manual checklist).
 ---
 
 # Research-paper series (Season 2)

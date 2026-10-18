@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="100 Papers That Changed AI — Season 2: The LLM Era: reimplemented from scratch, validated on Kaggle" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
   <img alt="papers" src="https://img.shields.io/badge/papers-100%20%2F%20100-4ea8de">

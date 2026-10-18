@@ -140,7 +140,7 @@ def build_banner(papers):
         'bg', ['#1b1f4b', '#0d1117']), aspect='auto', zorder=0)
     draw_network(ax, w, h, seed=7)
     years = [p['year'] for p in papers]
-    ax.text(70, 285, f'{GOAL} Papers That Changed AI — Season 2: The LLM Era', color=FG, fontsize=38, fontweight='bold', zorder=5)
+    ax.text(70, 285, f'{GOAL} LLM Era Papers', color=FG, fontsize=42, fontweight='bold', zorder=5)
     ax.text(72, 220, 'Landmark LLM-era papers reimplemented from scratch in PyTorch  ·  every notebook run end-to-end on Kaggle',
             color='#c9d1d9', fontsize=17, zorder=5)
     x = 72
@@ -230,7 +230,7 @@ def build_readme(papers):
     years = [p['year'] for p in papers]
     kaggle_badge = 'https://kaggle.com/static/images/open-in-kaggle.svg'
     L = []
-    L.append('<p align="center"><img src="assets/banner.svg" alt="100 Papers That Changed AI — Season 2: The LLM Era: reimplemented from scratch, '
+    L.append('<p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, '
              'validated on Kaggle" width="100%"></p>\n')
     L.append('<p align="center">')
     L.append(f'  <img alt="papers" src="https://img.shields.io/badge/papers-{len(papers)}%20%2F%20{GOAL}-4ea8de">')
