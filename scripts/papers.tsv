@@ -1,7 +1,7 @@
 num	short	year	domain	title	folder	kaggle
 001	RoPE	2021	architecture	RoFormer: Enhanced Transformer with Rotary Position Embedding	001_roformer-rotary-position-embedding	roformer-rotary-position-embedding
 002	ALiBi	2021	architecture	Train Short Test Long: Attention with Linear Biases (ALiBi)	002_alibi-attention-with-linear-biases	alibi-attention-with-linear-biases
-003	SwiGLU	2020	architecture	GLU Variants Improve Transformer (SwiGLU)	003_swiglu-glu-variants-improve-transformer	swiglu-glu-variants-improve-transformer
+003	SwiGLU	2020	architecture	GLU Variants Improve Transformer (SwiGLU)	003_swiglu-glu-variants-improve-transformer	glu-variants-improve-transformer
 004	RMSNorm	2019	architecture	Root Mean Square Layer Normalization (RMSNorm)	004_rmsnorm-root-mean-square-layer-norm	rmsnorm-root-mean-square-layer-normalization
 005	GQA	2023	architecture	GQA: Training Generalized Multi-Query Transformer Models	005_gqa-generalized-multi-query-attention	gqa-generalized-multi-query-attention
 006	LLaMA	2023	architecture	LLaMA: Open and Efficient Foundation Language Models	006_llama-open-and-efficient-foundation-language-models	llama-open-and-efficient-foundation-language-models
