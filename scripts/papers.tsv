@@ -4,7 +4,7 @@ num	short	year	domain	title	folder	kaggle
 003	SwiGLU	2020	architecture	GLU Variants Improve Transformer (SwiGLU)	003_swiglu-glu-variants-improve-transformer	glu-variants-improve-transformer
 004	RMSNorm	2019	architecture	Root Mean Square Layer Normalization (RMSNorm)	004_rmsnorm-root-mean-square-layer-norm	rmsnorm-root-mean-square-layer-normalization
 005	GQA	2023	architecture	GQA: Training Generalized Multi-Query Transformer Models	005_gqa-generalized-multi-query-attention	gqa-generalized-multi-query-attention
-006	LLaMA	2023	architecture	LLaMA: Open and Efficient Foundation Language Models	006_llama-open-and-efficient-foundation-language-models	llama-open-and-efficient-foundation-language-models
+006	LLaMA	2023	architecture	LLaMA: Open and Efficient Foundation Language Models	006_llama-open-and-efficient-foundation-language-models	llama-open-efficient-foundation-models
 007	Mistral	2023	architecture	Mistral 7B	007_mistral-7b-sliding-window-attention	mistral-7b-sliding-window-attention
 008	YaRN	2023	architecture	YaRN: Efficient Context Window Extension of Large Language Models	008_yarn-efficient-context-window-extension	yarn-efficient-context-window-extension
 009	MLA	2024	architecture	DeepSeek-V2: Multi-head Latent Attention (MLA)	009_deepseek-v2-multi-head-latent-attention	deepseek-v2-multi-head-latent-attention
