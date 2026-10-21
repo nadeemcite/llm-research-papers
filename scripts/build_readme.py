@@ -104,6 +104,8 @@ EDGES = [
     ('095', '096'),   # Alignment Faking -> Emergent Misalignment
     ('096', '097'),   # Emergent Misalignment -> Subliminal Learning
     ('039', '046'),   # QLoRA -> DPO
+    ('001', '009'),   # RoPE -> MLA (decoupled RoPE)
+    ('005', '009'),   # GQA -> MLA (improves upon GQA)
     ('009', '035'),   # MLA -> DeepSeek-V3
     ('035', '033'),   # DeepSeek-V3 -> DeepSeek Sparse Attention
     ('031', '039'),   # BitNet -> QLoRA
