@@ -64,6 +64,8 @@ EDGES = [
     ('030', '031'),   # AWQ -> BitNet
     ('034', '037'),   # Scaling Laws -> Superposition Scaling
     ('040', '041'),   # Self-Instruct -> LIMA
+    ('001', '008'),   # RoPE -> YaRN
+    ('006', '008'),   # LLaMA -> YaRN
     ('041', '045'),   # LIMA -> Constitutional AI
     ('046', '047'),   # DPO -> KTO
     ('046', '048'),   # DPO -> ORPO
