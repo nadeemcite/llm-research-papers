@@ -10,7 +10,7 @@ num	short	year	domain	title	folder	kaggle
 009	MLA	2024	architecture	DeepSeek-V2: Multi-head Latent Attention (MLA)	009_deepseek-v2-multi-head-latent-attention	deepseek-v2-multi-head-latent-attention
 010	Multi-token Pred	2024	architecture	Better and Faster LLMs via Multi-token Prediction	010_multi-token-prediction-llms	multi-token-prediction-llms
 011	Diff Transformer	2024	architecture	Differential Transformer	011_differential-transformer	differential-transformer
-012	Gated Attention	2025	architecture	Gated Attention for Large Language Models	012_gated-attention-llm	gated-attention-large-language-models
+012	Gated Attention	2025	architecture	Gated Attention for Large Language Models	012_gated-attention-llm	gated-attention-for-large-language-models
 013	Hyper-Connections	2025	architecture	mHC: Manifold-Constrained Hyper-Connections	013_mhc-manifold-constrained-hyper-connections	mhc-manifold-constrained-hyper-connections
 014	Engram	2026	architecture	Conditional Memory via Scalable Lookup (Engram)	014_engram-conditional-memory-scalable-lookup	engram-conditional-memory-scalable-lookup
 015	BLT	2024	architecture	Byte Latent Transformer: Patches Scale Better Than Tokens	015_byte-latent-transformer	byte-latent-transformer

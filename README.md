@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-11%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-12%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -53,7 +53,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 010 | 2024 | [Better and Faster LLMs via Multi-token Prediction](010_multi-token-prediction-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/multi-token-prediction-llms) |
 | 011 | 2024 | [Differential Transformer](011_differential-transformer/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/differential-transformer) |
 | 015 | 2024 | Byte Latent Transformer: Patches Scale Better Than Tokens | _In progress_ |
-| 012 | 2025 | Gated Attention for Large Language Models | _In progress_ |
+| 012 | 2025 | [Gated Attention for Large Language Models](012_gated-attention-llm/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gated-attention-for-large-language-models) |
 | 013 | 2025 | mHC: Manifold-Constrained Hyper-Connections | _In progress_ |
 | 014 | 2026 | Conditional Memory via Scalable Lookup (Engram) | _In progress_ |
 
