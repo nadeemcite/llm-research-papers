@@ -12,7 +12,7 @@ num	short	year	domain	title	folder	kaggle
 011	Diff Transformer	2024	architecture	Differential Transformer	011_differential-transformer	differential-transformer
 012	Gated Attention	2025	architecture	Gated Attention for Large Language Models	012_gated-attention-llm	gated-attention-for-large-language-models
 013	Hyper-Connections	2025	architecture	mHC: Manifold-Constrained Hyper-Connections	013_mhc-manifold-constrained-hyper-connections	mhc-manifold-constrained-hyper-connections
-014	Engram	2026	architecture	Conditional Memory via Scalable Lookup (Engram)	014_engram-conditional-memory-scalable-lookup	engram-conditional-memory-scalable-lookup
+014	Engram	2026	architecture	Conditional Memory via Scalable Lookup (Engram)	014_engram-conditional-memory-scalable-lookup	conditional-memory-via-scalable-lookup-engram
 015	BLT	2024	architecture	Byte Latent Transformer: Patches Scale Better Than Tokens	015_byte-latent-transformer	byte-latent-transformer
 016	S4	2021	ssm	Efficiently Modeling Long Sequences with Structured State Spaces (S4)	016_s4-structured-state-spaces	s4-structured-state-spaces
 017	xLSTM	2024	ssm	xLSTM: Extended Long Short-Term Memory	017_xlstm-extended-lstm	xlstm-extended-long-short-term-memory
