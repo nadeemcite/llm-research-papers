@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-15%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-16%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -61,7 +61,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 016 | 2021 | Efficiently Modeling Long Sequences with Structured State Spaces (S4) | _In progress_ |
+| 016 | 2021 | [Efficiently Modeling Long Sequences with Structured State Spaces (S4)](016_s4-structured-state-spaces/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/s4-structured-state-spaces) |
 | 019 | 2023 | RWKV: Reinventing RNNs for the Transformer Era | _In progress_ |
 | 017 | 2024 | xLSTM: Extended Long Short-Term Memory | _In progress_ |
 | 018 | 2024 | Transformers are SSMs: Generalized Models via Structured State Space Duality | _In progress_ |
