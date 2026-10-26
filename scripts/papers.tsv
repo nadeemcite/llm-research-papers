@@ -17,7 +17,7 @@ num	short	year	domain	title	folder	kaggle
 016	S4	2021	ssm	Efficiently Modeling Long Sequences with Structured State Spaces (S4)	016_s4-structured-state-spaces	s4-structured-state-spaces
 017	xLSTM	2024	ssm	xLSTM: Extended Long Short-Term Memory	017_xlstm-extended-lstm	xlstm-extended-long-short-term-memory
 018	Mamba-2	2024	ssm	Transformers are SSMs: Generalized Models via Structured State Space Duality	018_mamba-2-structured-state-space-duality	mamba-2-structured-state-space-duality
-019	RWKV	2023	ssm	RWKV: Reinventing RNNs for the Transformer Era	019_rwkv-reinventing-rnns-transformer-era	rwkv-reinventing-rnns-transformer-era
+019	RWKV	2023	ssm	RWKV: Reinventing RNNs for the Transformer Era	019_rwkv-reinventing-rnns-transformer-era	rwkv-reinventing-rnns-for-the-transformer-era
 020	Gated DeltaNet	2024	ssm	Gated Delta Networks: Improving Mamba2 with Delta Rule	020_gated-deltanet-improving-mamba2	gated-deltanet-improving-mamba2
 021	Kimi Linear	2025	ssm	Kimi Linear: An Expressive Efficient Attention Architecture	021_kimi-linear-attention-architecture	kimi-linear-attention-architecture
 022	Titans	2025	ssm	Titans: Learning to Memorize at Test Time	022_titans-learning-to-memorize-test-time	titans-learning-to-memorize-test-time
