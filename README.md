@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-19%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-20%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -65,7 +65,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 019 | 2023 | [RWKV: Reinventing RNNs for the Transformer Era](019_rwkv-reinventing-rnns-transformer-era/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rwkv-reinventing-rnns-for-the-transformer-era) |
 | 017 | 2024 | [xLSTM: Extended Long Short-Term Memory](017_xlstm-extended-lstm/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/xlstm-extended-long-short-term-memory) |
 | 018 | 2024 | [Transformers are SSMs: Generalized Models via Structured State Space Duality](018_mamba-2-structured-state-space-duality/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/mamba-2-structured-state-space-duality) |
-| 020 | 2024 | Gated Delta Networks: Improving Mamba2 with Delta Rule | _In progress_ |
+| 020 | 2024 | [Gated Delta Networks: Improving Mamba2 with Delta Rule](020_gated-deltanet-improving-mamba2/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gated-deltanet-improving-mamba2) |
 | 021 | 2025 | Kimi Linear: An Expressive Efficient Attention Architecture | _In progress_ |
 | 022 | 2025 | Titans: Learning to Memorize at Test Time | _In progress_ |
 
