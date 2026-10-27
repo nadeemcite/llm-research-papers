@@ -20,7 +20,7 @@ num	short	year	domain	title	folder	kaggle
 019	RWKV	2023	ssm	RWKV: Reinventing RNNs for the Transformer Era	019_rwkv-reinventing-rnns-transformer-era	rwkv-reinventing-rnns-for-the-transformer-era
 020	Gated DeltaNet	2024	ssm	Gated Delta Networks: Improving Mamba2 with Delta Rule	020_gated-deltanet-improving-mamba2	gated-deltanet-improving-mamba2
 021	Kimi Linear	2025	ssm	Kimi Linear: An Expressive Efficient Attention Architecture	021_kimi-linear-attention-architecture	kimi-linear-attention-architecture
-022	Titans	2025	ssm	Titans: Learning to Memorize at Test Time	022_titans-learning-to-memorize-test-time	titans-learning-to-memorize-test-time
+022	Titans	2024	ssm	Titans: Learning to Memorize at Test Time	022_titans-learning-to-memorize-test-time	titans-learning-to-memorize-at-test-time
 023	FlashAttention-2	2023	efficiency	FlashAttention-2: Faster Attention with Better Parallelism	023_flashattention-2-faster-attention	flashattention-2-faster-attention
 024	PagedAttention	2023	efficiency	Efficient Memory Management for LLM Serving with PagedAttention (vLLM)	024_pagedattention-vllm-memory-management	pagedattention-vllm-memory-management
 025	Speculative Decoding	2022	efficiency	Fast Inference from Transformers via Speculative Decoding	025_speculative-decoding-fast-inference	speculative-decoding-fast-inference
