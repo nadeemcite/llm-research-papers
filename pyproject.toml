@@ -13,4 +13,5 @@ dependencies = [
     "nbconvert>=7.17.2",
     "pymupdf>=2.0",
     "torch",
+    "transformers>=5.21.0",
 ]
