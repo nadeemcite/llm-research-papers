@@ -29,7 +29,7 @@ num	short	year	domain	title	folder	kaggle
 028	LLM.int8()	2022	quantization	LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale	028_llm-int8-8-bit-matmul	llm-int8-8-bit-matrix-multiplication
 029	GPTQ	2022	quantization	GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers	029_gptq-post-training-quantization	gptq-post-training-quantization
 030	AWQ	2023	quantization	AWQ: Activation-aware Weight Quantization for LLM Compression	030_awq-activation-aware-weight-quantization	awq-activation-aware-weight-quantization
-031	BitNet b1.58	2024	quantization	The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits	031_bitnet-b1.58-1-bit-llms	bitnet-b1.58-1-bit-llms
+031	BitNet b1.58	2024	quantization	The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits	031_bitnet-b1.58-1-bit-llms	bitnet-b158-1-bit-llms
 032	NSA	2025	efficiency	Native Sparse Attention: Hardware-Aligned and Natively Trainable	032_native-sparse-attention	native-sparse-attention
 033	DeepSeek Sparse Attn	2025	efficiency	DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention)	033_deepseek-sparse-attention	deepseek-sparse-attention
 034	Scaling Laws	2020	scaling	Scaling Laws for Neural Language Models (Kaplan)	034_scaling-laws-neural-language-models	scaling-laws-neural-language-models
