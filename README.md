@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-32%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-33%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -79,7 +79,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 027 | 2023 | [Efficient Streaming Language Models with Attention Sinks](027_streamingllm-attention-sinks/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/streamingllm-attention-sinks) |
 | 026 | 2024 | [Medusa: Simple LLM Inference Acceleration with Multiple Decoding Heads](026_medusa-multiple-decoding-heads/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/medusa-multiple-decoding-heads) |
 | 032 | 2025 | [Native Sparse Attention: Hardware-Aligned and Natively Trainable](032_native-sparse-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/native-sparse-attention) |
-| 033 | 2025 | DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention) | _In progress_ |
+| 033 | 2025 | [DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention)](033_deepseek-sparse-attention/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-sparse-attention) |
 
 ### Quantization
 
