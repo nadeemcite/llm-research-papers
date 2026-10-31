@@ -34,7 +34,7 @@ num	short	year	domain	title	folder	kaggle
 033	DeepSeek Sparse Attn	2025	efficiency	DeepSeek-V3.2: Pushing the Frontier of Open LLMs (DeepSeek Sparse Attention)	033_deepseek-sparse-attention	deepseek-sparse-attention
 034	Scaling Laws	2020	scaling	Scaling Laws for Neural Language Models (Kaplan)	034_scaling-laws-neural-language-models	scaling-laws-neural-language-models
 035	DeepSeek-V3	2024	scaling	DeepSeek-V3 Technical Report	035_deepseek-v3-technical-report	deepseek-v3-technical-report
-036	Muon	2025	scaling	Muon is Scalable for LLM Training	036_muon-scalable-llm-training	muon-scalable-llm-training
+036	Muon	2025	scaling	Muon is Scalable for LLM Training	036_muon-scalable-llm-training	muon-is-scalable-for-llm-training
 037	Superposition Scaling	2025	scaling	Superposition Yields Robust Neural Scaling	037_superposition-robust-neural-scaling	superposition-robust-neural-scaling
 038	Grokking	2022	training	Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets	038_grokking-generalization-beyond-overfitting	grokking-generalization-beyond-overfitting
 039	QLoRA	2023	training	QLoRA: Efficient Finetuning of Quantized LLMs	039_qlora-efficient-finetuning-quantized-llms	qlora-efficient-finetuning-quantized-llms
