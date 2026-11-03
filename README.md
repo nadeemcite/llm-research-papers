@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-42%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-43%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -113,7 +113,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 040 | 2022 | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](040_self-instruct-aligning-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-instruct-aligning-language-models) |
 | 041 | 2023 | [LIMA: Less Is More for Alignment](041_lima-less-is-more-for-alignment/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/lima-less-is-more-for-alignment) |
 | 042 | 2023 | [Textbooks Are All You Need (phi-1)](042_phi-1-textbooks-are-all-you-need/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/phi-1-textbooks-are-all-you-need) |
-| 043 | 2023 | TinyStories: How Small Can Language Models Be and Still Speak Coherent English | _In progress_ |
+| 043 | 2023 | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English](043_tinystories-small-language-models/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/tinystories-small-language-models) |
 | 044 | 2023 | The Curse of Recursion: Training on Generated Data Makes Models Forget | _In progress_ |
 
 ### Alignment & Preference

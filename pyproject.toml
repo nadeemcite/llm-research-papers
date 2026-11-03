@@ -11,7 +11,10 @@ dependencies = [
     "kaggle>=2.2.4",
     "matplotlib>=3.11.2",
     "nbconvert>=7.17.2",
+    "pdfplumber>=0.11.10",
+    "pyarrow>=26.0.1",
     "pymupdf>=2.0",
+    "scikit-learn>=1.9.1",
     "torch",
     "transformers>=5.21.0",
 ]
