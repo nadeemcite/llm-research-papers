@@ -43,7 +43,7 @@ num	short	year	domain	title	folder	kaggle
 042	phi-1	2023	data	Textbooks Are All You Need (phi-1)	042_phi-1-textbooks-are-all-you-need	phi-1-textbooks-are-all-you-need
 043	TinyStories	2023	data	TinyStories: How Small Can Language Models Be and Still Speak Coherent English	043_tinystories-small-language-models	tinystories-small-language-models
 044	Model Collapse	2023	data	The Curse of Recursion: Training on Generated Data Makes Models Forget	044_model-collapse-generated-data	model-collapse-generated-data
-045	Constitutional AI	2022	alignment	Constitutional AI: Harmlessness from AI Feedback	045_constitutional-ai-harmlessness-ai-feedback	constitutional-ai-harmlessness-ai-feedback
+045	Constitutional AI	2022	alignment	Constitutional AI: Harmlessness from AI Feedback	045_constitutional-ai-harmlessness-ai-feedback	constitutional-ai-harmlessness-from-ai-feedback
 046	DPO	2023	alignment	Direct Preference Optimization: Your Language Model is Secretly a Reward Model	046_dpo-direct-preference-optimization	dpo-direct-preference-optimization
 047	KTO	2024	alignment	KTO: Model Alignment as Prospect Theoretic Optimization	047_kto-prospect-theoretic-optimization	kto-prospect-theoretic-optimization
 048	ORPO	2024	alignment	ORPO: Monolithic Preference Optimization without Reference Model	048_orpo-monolithic-preference-optimization	orpo-monolithic-preference-optimization
