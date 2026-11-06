@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-52%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-53%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -134,7 +134,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 |---|---|---|---|
 | 052 | 2022 | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](052_chain-of-thought-prompting-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/chain-of-thought-prompting-reasoning) |
 | 053 | 2022 | [Large Language Models are Zero-Shot Reasoners](053_zero-shot-cot-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/zero-shot-cot-reasoning) |
-| 054 | 2022 | Self-Consistency Improves Chain of Thought Reasoning in Language Models | _In progress_ |
+| 054 | 2022 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](054_self-consistency-chain-of-thought/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/self-consistency-chain-of-thought-reasoning) |
 | 056 | 2022 | STaR: Bootstrapping Reasoning With Reasoning | _In progress_ |
 | 055 | 2023 | Tree of Thoughts: Deliberate Problem Solving with Large Language Models | _In progress_ |
 | 057 | 2023 | Let's Verify Step by Step (Process Reward Models) | _In progress_ |
