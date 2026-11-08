@@ -56,7 +56,7 @@ num	short	year	domain	title	folder	kaggle
 055	Tree of Thoughts	2023	reasoning	Tree of Thoughts: Deliberate Problem Solving with Large Language Models	055_tree-of-thoughts-deliberate-problem-solving	tree-of-thoughts-deliberate-problem-solving
 056	STaR	2022	reasoning	STaR: Bootstrapping Reasoning With Reasoning	056_star-bootstrapping-reasoning	star-bootstrapping-reasoning
 057	Process Reward Models	2023	reasoning	Let's Verify Step by Step (Process Reward Models)	057_process-reward-models-verify-step-by-step	process-reward-models-verify-step-by-step
-058	Test-Time Compute	2024	reasoning	Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters	058_scaling-test-time-compute-optimally	scaling-test-time-compute-optimally
+058	Test-Time Compute	2024	reasoning	Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters	058_scaling-test-time-compute-optimally	scaling-llm-test-time-compute-optimally
 059	GRPO	2024	reasoning	DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO)	059_grpo-deepseek-mathematical-reasoning	grpo-deepseek-mathematical-reasoning
 060	DeepSeek-R1	2025	reasoning	DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning	060_deepseek-r1-reinforcement-learning-reasoning	deepseek-r1-reinforcement-learning-reasoning
 061	s1	2025	reasoning	s1: Simple test-time scaling	061_s1-simple-test-time-scaling	s1-simple-test-time-scaling
