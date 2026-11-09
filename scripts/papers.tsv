@@ -58,7 +58,7 @@ num	short	year	domain	title	folder	kaggle
 057	Process Reward Models	2023	reasoning	Let's Verify Step by Step (Process Reward Models)	057_process-reward-models-verify-step-by-step	process-reward-models-verify-step-by-step
 058	Test-Time Compute	2024	reasoning	Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters	058_scaling-test-time-compute-optimally	scaling-llm-test-time-compute-optimally
 059	GRPO	2024	reasoning	DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO)	059_grpo-deepseek-mathematical-reasoning	grpo-deepseek-mathematical-reasoning
-060	DeepSeek-R1	2025	reasoning	DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning	060_deepseek-r1-reinforcement-learning-reasoning	deepseek-r1-reinforcement-learning-reasoning
+060	DeepSeek-R1	2025	reasoning	DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning	060_deepseek-r1-reinforcement-learning-reasoning	deepseek-r1
 061	s1	2025	reasoning	s1: Simple test-time scaling	061_s1-simple-test-time-scaling	s1-simple-test-time-scaling
 062	DAPO	2025	reasoning	DAPO: An Open-Source LLM Reinforcement Learning System at Scale	062_dapo-open-source-llm-rl-system	dapo-open-source-llm-rl-system
 063	Dr. GRPO	2025	reasoning	Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO)	063_dr-grpo-critical-perspective-r1-zero	dr-grpo-critical-perspective-r1-zero
