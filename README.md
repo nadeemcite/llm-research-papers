@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-59%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-60%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -142,7 +142,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 059 | 2024 | [DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO)](059_grpo-deepseek-mathematical-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/grpo-deepseek-mathematical-reasoning) |
 | 065 | 2024 | Training Large Language Models to Reason in a Continuous Latent Space (Coconut) | _In progress_ |
 | 060 | 2025 | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](060_deepseek-r1-reinforcement-learning-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/deepseek-r1) |
-| 061 | 2025 | s1: Simple test-time scaling | _In progress_ |
+| 061 | 2025 | [s1: Simple test-time scaling](061_s1-simple-test-time-scaling/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/s1-simple-test-time-scaling) |
 | 062 | 2025 | DAPO: An Open-Source LLM Reinforcement Learning System at Scale | _In progress_ |
 | 063 | 2025 | Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO) | _In progress_ |
 | 064 | 2025 | Does Reinforcement Learning Really Incentivize Reasoning Capacity Beyond the Base Model | _In progress_ |
