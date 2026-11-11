@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-64%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-65%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -146,7 +146,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 | 062 | 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](062_dapo-open-source-llm-rl-system/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/dapo-open-source-llm-rl-system) |
 | 063 | 2025 | [Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO)](063_dr-grpo-critical-perspective-r1-zero/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/dr-grpo-critical-perspective-r1-zero) |
 | 064 | 2025 | [Does Reinforcement Learning Really Incentivize Reasoning Capacity Beyond the Base Model](064_rl-reasoning-beyond-base-model/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/rl-reasoning-beyond-base-model) |
-| 066 | 2025 | Absolute Zero: Reinforced Self-play Reasoning with Zero Data | _In progress_ |
+| 066 | 2025 | [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](066_absolute-zero-reinforced-self-play-reasoning/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/absolute-zero-reinforced-self-play-reasoning) |
 | 067 | 2025 | Less is More: Recursive Reasoning with Tiny Networks | _In progress_ |
 | 068 | 2026 | Learning to Discover at Test Time | _In progress_ |
 
