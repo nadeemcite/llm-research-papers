@@ -3367,7 +3367,7 @@ z
 " clip-path="url(#pd78c28c64d)" style="fill: #f2c14e; opacity: 0.95"/>
    </g>
    <g id="text_3">
-    <!-- 66 / 100 papers   ·   2019 → 2026   ·   16 domains -->
+    <!-- 67 / 100 papers   ·   2019 → 2026   ·   16 domains -->
     <g style="fill: #8b949e" transform="translate(51.84 248.4) scale(0.15 -0.15)">
      <defs>
       <path id="DejaVuSans-19" d="M 2113 2584 
@@ -3398,6 +3398,16 @@ Q 447 3434 972 4092
 Q 1497 4750 2381 4750 
 Q 2619 4750 2861 4703 
 Q 3103 4656 3366 4563 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-1a" d="M 525 4666 
+L 3525 4666 
+L 3525 4397 
+L 1831 0 
+L 1172 0 
+L 2766 4134 
+L 525 4134 
+L 525 4666 
 z
 " transform="scale(0.015625)"/>
       <path id="DejaVuSans-12" d="M 1625 4666 
@@ -3511,7 +3521,7 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#DejaVuSans-19"/>
-     <use xlink:href="#DejaVuSans-19" transform="translate(63.625 0)"/>
+     <use xlink:href="#DejaVuSans-1a" transform="translate(63.625 0)"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(127.25 0)"/>
      <use xlink:href="#DejaVuSans-12" transform="translate(159.03125 0)"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(192.71875 0)"/>

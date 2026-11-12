@@ -66,7 +66,7 @@ num	short	year	domain	title	folder	kaggle
 065	Coconut	2024	reasoning	Training Large Language Models to Reason in a Continuous Latent Space (Coconut)	065_coconut-continuous-latent-space-reasoning	coconut-continuous-latent-space-reasoning
 066	Absolute Zero	2025	reasoning	Absolute Zero: Reinforced Self-play Reasoning with Zero Data	066_absolute-zero-reinforced-self-play-reasoning	absolute-zero-reinforced-self-play-reasoning
 067	Tiny Recursive Model	2025	reasoning	Less is More: Recursive Reasoning with Tiny Networks	067_tiny-recursive-model-reasoning	tiny-recursive-model-reasoning
-068	Learning to Discover	2026	reasoning	Learning to Discover at Test Time	068_learning-to-discover-test-time	learning-to-discover-test-time
+068	Learning to Discover	2026	reasoning	Learning to Discover at Test Time	068_learning-to-discover-test-time	learning-to-discover-at-test-time
 069	ReAct	2022	agents	ReAct: Synergizing Reasoning and Acting in Language Models	069_react-synergizing-reasoning-acting	react-synergizing-reasoning-acting
 070	Toolformer	2023	agents	Toolformer: Language Models Can Teach Themselves to Use Tools	070_toolformer-teaching-lms-to-use-tools	toolformer-teaching-lms-to-use-tools
 071	Reflexion	2023	agents	Reflexion: Language Agents with Verbal Reinforcement Learning	071_reflexion-verbal-reinforcement-learning	reflexion-verbal-reinforcement-learning
