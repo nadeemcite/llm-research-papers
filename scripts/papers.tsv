@@ -80,7 +80,7 @@ num	short	year	domain	title	folder	kaggle
 079	Self-RAG	2023	rag	Self-RAG: Learning to Retrieve Generate and Critique through Self-Reflection	079_self-rag-retrieve-generate-critique	self-rag-retrieve-generate-critique
 080	GraphRAG	2024	rag	From Local to Global: A Graph RAG Approach to Query-Focused Summarization	080_graphrag-graph-rag-query-summarization	graphrag-graph-rag-query-summarization
 081	Matryoshka Repr	2022	rag	Matryoshka Representation Learning	081_matryoshka-representation-learning	matryoshka-representation-learning
-082	Multi-Turn Lost	2025	rag	LLMs Get Lost In Multi-Turn Conversation	082_llms-lost-in-multi-turn-conversation	llms-lost-in-multi-turn-conversation
+082	Multi-Turn Lost	2025	rag	LLMs Get Lost In Multi-Turn Conversation	082_llms-lost-in-multi-turn-conversation	llms-get-lost-in-multi-turn-conversation
 083	Mixtral	2024	moe	Mixtral of Experts	083_mixtral-of-experts	mixtral-of-experts
 084	DeepSeekMoE	2024	moe	DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts	084_deepseek-moe-expert-specialization	deepseek-moe-expert-specialization
 085	LLaVA	2023	multimodal	Visual Instruction Tuning (LLaVA)	085_llava-visual-instruction-tuning	llava-visual-instruction-tuning
