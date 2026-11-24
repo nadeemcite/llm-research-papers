@@ -86,7 +86,7 @@ num	short	year	domain	title	folder	kaggle
 085	LLaVA	2023	multimodal	Visual Instruction Tuning (LLaVA)	085_llava-visual-instruction-tuning	llava-visual-instruction-tuning
 086	Whisper	2022	multimodal	Robust Speech Recognition via Large-Scale Weak Supervision (Whisper)	086_whisper-robust-speech-recognition	whisper-robust-speech-recognition
 087	LLaDA	2025	diffusion	Large Language Diffusion Models (LLaDA)	087_llada-large-language-diffusion-models	llada-large-language-diffusion-models
-088	Induction Heads	2022	interpretability	In-context Learning and Induction Heads	088_induction-heads-in-context-learning	induction-heads-in-context-learning
+088	Induction Heads	2022	interpretability	In-context Learning and Induction Heads	088_induction-heads-in-context-learning	in-context-learning-and-induction-heads
 089	Toy Superposition	2022	interpretability	Toy Models of Superposition	089_toy-models-of-superposition	toy-models-of-superposition
 090	Monosemanticity	2023	interpretability	Towards Monosemanticity: Decomposing Language Models With Dictionary Learning	090_towards-monosemanticity-dictionary-learning	towards-monosemanticity-dictionary-learning
 091	ROME	2022	interpretability	Locating and Editing Factual Associations in GPT (ROME)	091_rome-locating-editing-factual-associations	rome-locating-editing-factual-associations
