@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="100 LLM Era Papers: reimplemented from scratch, validated on Kaggle" width="100%"></p>
 
 <p align="center">
-  <img alt="papers" src="https://img.shields.io/badge/papers-90%20%2F%20100-4ea8de">
+  <img alt="papers" src="https://img.shields.io/badge/papers-91%20%2F%20100-4ea8de">
   <a href="https://www.kaggle.com/nadymsazad"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-run%20every%20notebook-20BEFF?logo=kaggle&logoColor=white"></a>
   <a href="https://www.youtube.com/@BackpropDaily"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Backprop%20Daily-FF0000?logo=youtube&logoColor=white"></a>
   <a href="https://github.com/nadeemcite/llm-research-papers/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-57cc99"></a>
@@ -211,7 +211,7 @@ This repo is also an experiment in what AI agents can build when the bar is *"it
 
 | # | Year | Paper | Run it |
 |---|---|---|---|
-| 092 | 2023 | Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG) | _In progress_ |
+| 092 | 2023 | [Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG)](092_gcg-adversarial-attacks-aligned-llms/) | [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/nadymsazad/gcg-adversarial-attacks-aligned-llms) |
 | 094 | 2024 | Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training | _In progress_ |
 | 095 | 2024 | Alignment Faking in Large Language Models | _In progress_ |
 | 096 | 2025 | Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs | _In progress_ |
